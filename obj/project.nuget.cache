@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+iAC8iQq+7Q=",
+  "dgSpecHash": "M9sxiwT8X2o=",
   "success": true,
   "projectFilePath": "C:\\CSHARP\\MiBibliotecaAPI\\MiBibliotecaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vaprel\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.11\\microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
+    "C:\\Users\\vaprel\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\10.0.0\\microsoft.entityframeworkcore.tools.10.0.0.nupkg.sha512",
     "C:\\Users\\vaprel\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
   ],
   "logs": []
