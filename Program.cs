@@ -1,4 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using MiBibliotecaAPI.Data; 
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+// --- INICIO DE CÓDIGO A AÑADIR ---
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(connectionString));
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
