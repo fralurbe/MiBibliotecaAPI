@@ -60,11 +60,9 @@ public class LibrosController : ControllerBase {
         if (id != libro.Id) {
             return BadRequest(); // 400 Bad Request
         }
-
         // 2. PATRÓN EF CORE: Marca el objeto como modificado.
         // Esto hace que EF Core genere un comando SQL UPDATE.
         _context.Entry(libro).State = EntityState.Modified;
-
         try {
             // 3. EJECUCIÓN: Envía el UPDATE a la base de datos.
             await _context.SaveChangesAsync();
@@ -78,7 +76,6 @@ public class LibrosController : ControllerBase {
                 throw;
             }
         }
-
         return NoContent(); // 204 No Content (Éxito sin devolver datos)
     }
 

@@ -10,6 +10,8 @@ namespace MiBibliotecaAPI.Data {
 
         // DbSets: Representan las tablas de tu base de datos
         public DbSet<Autor> Autores { get; set; }
-        public DbSet<Libro> Libros { get; set; }
+        public DbSet<Libro> Libros { get; set; }        
+        public DbSet<Editorial> Editoriales { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }

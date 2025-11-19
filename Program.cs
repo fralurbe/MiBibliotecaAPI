@@ -1,51 +1,50 @@
 using Microsoft.EntityFrameworkCore;
-using MiBibliotecaAPI.Data; 
+using MiBibliotecaAPI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// --- 1. CONFIGURACIÓN DE SERVICIOS (builder.Services) ---
 
-// --- INICIO DE CÓDIGO A AÑADIR ---
+// Configuración de Entity Framework Core (Conexión a la BD)
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+// Habilitar la compatibilidad con controladores (para AutoresController, etc.)
+builder.Services.AddControllers();
+
+// Habilitar servicios de Swagger/OpenAPI para la documentación
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Añadir el soporte para CORS (necesario si el front-end está en otro puerto)
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy",
+        builder => builder.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader());
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
+// --- 2. CONFIGURACIÓN DEL MIDDLEWARE (app.Use) ---
+
+// Configurar el HTTP request pipeline (Swagger solo en entorno de desarrollo)
+if (app.Environment.IsDevelopment()) {
+    // Las dos líneas que cargan la documentación y la interfaz visual
+    app.UseSwagger();
+    app.UseSwaggerUI(); // ¡Esto resuelve el 404 Not Found!
 }
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+// Usar el middleware de CORS (debe ir antes de MapControllers)
+app.UseCors("CorsPolicy");
 
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+app.UseAuthorization();
+
+// Mapear los controladores (AutoresController, LibrosController, etc.)
+app.MapControllers();
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
