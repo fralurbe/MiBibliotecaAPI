@@ -67,3 +67,44 @@ Paso 5a,Add-Migration,"Generamos el archivo de migración, que es el plano en C#
 Paso 5b,Update-Database,"Ejecutamos el plano de migración, creando las tablas Autores y Libros en la base de datos de SQL Server."
 
 ########################################################################
+
+🛠️ El Ciclo de Desarrollo CRUD Completo
+
+1. Modelo (La Estructura)
+
+Archivo	Acción	Ejemplo
+Models/NuevaEntidad.cs	
+Crear la clase que representa la nueva tabla (ej. Clientes.cs).	public class Clientes { public int Id { get; set; } ... }
+
+2. Contexto (La Conexión)
+
+Archivo	Acción	Ejemplo
+Data/ApplicationDbContext.cs	
+Añadir un DbSet para mapear tu nuevo modelo a la base de datos.	public DbSet<Clientes> Clientes { get; set; }
+
+3. Migraciones (El Plan de SQL)
+
+Este es el paso que le dice a la base de datos que la nueva tabla debe existir.
+
+    Añadir la Migración:
+    PowerShell
+
+Add-Migration [NombreDescriptivo]
+
+    Ejemplo: Add-Migration AgregarTablaClientes
+
+    (EF Core genera el archivo ...AgregarTablaClientes.cs con el código SQL para crear la tabla.)
+
+Aplicar a la BD:
+PowerShell
+
+    Update-Database
+
+        (Esto ejecuta el plan SQL, creando la tabla real en tu SQL Server.)
+
+4. Controlador (La API REST)
+
+Archivo	Acción	Ejemplo
+Controllers/NuevaEntidadController.cs	Crear un nuevo controlador para manejar las peticiones HTTP (GET, POST, PUT, DELETE).	ClientesController.cs
+
+Una vez que completes estos cuatro pasos (Modelo, Contexto, Migraciones y Controlador), tu nueva entidad estará completamente operativa, y podrás verla y probarla en Swagger UI.

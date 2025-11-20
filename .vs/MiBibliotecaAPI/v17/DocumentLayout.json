@@ -31,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{3DBC4132-C9B9-1B25-B851-D75259F90958}|MiBibliotecaAPI.csproj|solutionrelative:mibibliotecaapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CSHARP\\MiBibliotecaAPI\\Migrations\\20251119115911_AgregarUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251119115911_AgregarUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3DBC4132-C9B9-1B25-B851-D75259F90958}|MiBibliotecaAPI.csproj|c:\\csharp\\mibibliotecaapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DBC4132-C9B9-1B25-B851-D75259F90958}|MiBibliotecaAPI.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,6 +49,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3DBC4132-C9B9-1B25-B851-D75259F90958}|MiBibliotecaAPI.csproj|c:\\csharp\\mibibliotecaapi\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DBC4132-C9B9-1B25-B851-D75259F90958}|MiBibliotecaAPI.csproj|solutionrelative:models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBC4132-C9B9-1B25-B851-D75259F90958}|MiBibliotecaAPI.csproj|c:\\csharp\\mibibliotecaapi\\migrations\\20251119115911_agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBC4132-C9B9-1B25-B851-D75259F90958}|MiBibliotecaAPI.csproj|solutionrelative:migrations\\20251119115911_agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,12 +75,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAxwA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T09:27:14.338Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Autor.cs",
               "DocumentMoniker": "C:\\CSHARP\\MiBibliotecaAPI\\Models\\Autor.cs",
               "RelativeDocumentMoniker": "Models\\Autor.cs",
@@ -89,12 +88,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T06:51:44.903Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Libro.cs",
               "DocumentMoniker": "C:\\CSHARP\\MiBibliotecaAPI\\Models\\Libro.cs",
               "RelativeDocumentMoniker": "Models\\Libro.cs",
@@ -103,8 +101,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T06:56:31.347Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -112,9 +109,9 @@
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\CSHARP\\MiBibliotecaAPI\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\CSHARP\\MiBibliotecaAPI\\Controllers\\UsuariosController.cs*",
-              "RelativeToolTip": "Controllers\\UsuariosController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "ToolTip": "C:\\CSHARP\\MiBibliotecaAPI\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T09:16:13.243Z",
               "IsPinned": true,
@@ -138,8 +135,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T12:43:03.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T12:43:03.505Z"
             },
             {
               "$type": "Document",
@@ -151,8 +147,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-19T12:26:04.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T12:26:04.631Z"
             },
             {
               "$type": "Document",
@@ -163,12 +158,11 @@
               "ToolTip": "C:\\CSHARP\\MiBibliotecaAPI\\MiBibliotecaAPI.csproj",
               "RelativeToolTip": "MiBibliotecaAPI.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-19T12:26:02.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T12:26:02.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "20251119115911_AgregarUsuario.cs",
               "DocumentMoniker": "C:\\CSHARP\\MiBibliotecaAPI\\Migrations\\20251119115911_AgregarUsuario.cs",
               "RelativeDocumentMoniker": "Migrations\\20251119115911_AgregarUsuario.cs",
@@ -176,12 +170,11 @@
               "RelativeToolTip": "Migrations\\20251119115911_AgregarUsuario.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAwwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T11:59:11.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T11:59:11.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\CSHARP\\MiBibliotecaAPI\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Models\\Usuario.cs",
@@ -189,12 +182,11 @@
               "RelativeToolTip": "Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T11:53:08.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T11:53:08.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Editorial.cs",
               "DocumentMoniker": "C:\\CSHARP\\MiBibliotecaAPI\\Models\\Editorial.cs",
               "RelativeDocumentMoniker": "Models\\Editorial.cs",
@@ -202,8 +194,7 @@
               "RelativeToolTip": "Models\\Editorial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T11:05:29.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T11:05:29.278Z"
             },
             {
               "$type": "Document",
@@ -215,12 +206,11 @@
               "RelativeToolTip": "Controllers\\EditorialesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T09:49:15.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T09:49:15.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "LibrosController.cs",
               "DocumentMoniker": "C:\\CSHARP\\MiBibliotecaAPI\\Controllers\\LibrosController.cs",
               "RelativeDocumentMoniker": "Controllers\\LibrosController.cs",
@@ -228,8 +218,7 @@
               "RelativeToolTip": "Controllers\\LibrosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T09:18:18.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T09:18:18.413Z"
             },
             {
               "$type": "Document",
@@ -241,8 +230,7 @@
               "RelativeToolTip": "Controllers\\AutoresController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T09:05:15.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T09:05:15.131Z"
             }
           ]
         },

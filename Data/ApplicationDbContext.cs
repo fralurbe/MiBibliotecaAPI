@@ -13,5 +13,19 @@ namespace MiBibliotecaAPI.Data {
         public DbSet<Libro> Libros { get; set; }        
         public DbSet<Editorial> Editoriales { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Pedido> Pedidos { get; set; }
+
+        // Dentro de la clase ApplicationDbContext
+        protected override void OnModelCreating(ModelBuilder modelBuilder) {
+            // Llama al método base si estás usando Identity u otras configuraciones
+            // base.OnModelCreating(modelBuilder); 
+
+            // Configuración para la propiedad 'Total' de la entidad 'Pedido'
+            modelBuilder.Entity<Pedido>()
+                .Property(p => p.Total)
+                .HasPrecision(18, 2); // 👈 18 dígitos en total, 2 decimales.         
+        }
     }
+
 }
