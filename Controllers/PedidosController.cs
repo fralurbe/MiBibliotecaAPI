@@ -32,7 +32,7 @@ public class PedidosController : ControllerBase {
         return pedido;
     }
 
-    //POST. api/Pedidos
+    //POST,Crea un nuevo recurso. api/Pedidos
     [HttpPost]
     public async Task<ActionResult<Pedido>> PostPedido(Pedido pedido){
         _context.Pedidos.Add(pedido);
@@ -49,5 +49,55 @@ public class PedidosController : ControllerBase {
             CreatedAtAction: La respuesta es enviada al cliente con el código 201 Created y el objeto Pedido
             completo, incluyendo la información anidada del Cliente.
          */
+    }
+
+    //PUT. Actualiza o reemplaza. api/Pedidos/
+    [HttpPut]
+    public async Task<ActionResult> PutPedido(int id,Pedido pedido) {
+        //1. Verificar si el ID de la URL coincide con el ID del objeto
+        if (id != pedido.Id) {
+            return BadRequest(); // 400: Datos inconsistentes.
+        }
+
+        //2. Marcar la entidad como modificada
+        _context.Entry(pedido).State = EntityState.Modified;
+
+        try {
+            //3. Guardar los cambios
+            await _context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException) {
+            // Manejar el caso si el Pedido no existe (404)
+            if (!_context.Pedidos.Any(pedido => pedido.Id == id)) {
+                return NotFound(); // 404: No encontrado;
+            }
+            else {
+                throw;
+            }
+            
+        }
+        //5.Devolver 204 No Content
+        return NoContent();
+    }
+
+    //DELETE. api/Pedidos/5
+    [HttpDelete]
+    public async Task<IActionResult> DeletePedido(int id) {
+        //1. Buscar el pedido por ID
+        var pedido = await _context.Pedidos.FindAsync(id);
+
+        //2. Si no existe, devolver 404
+        if (pedido == null) {
+            return NotFound();
+        }
+
+        //3.Marcar la entidad para eliminacion
+        _context.Pedidos.Remove(pedido);
+
+        //4. Ejecutar la eliminacion en la base de datos
+        await _context.SaveChangesAsync();
+
+        //5. Devolver 204 No Content
+        return NoContent();
     }
 }
