@@ -73,8 +73,7 @@ public class PedidosController : ControllerBase {
             }
             else {
                 throw;
-            }
-            
+            }            
         }
         //5.Devolver 204 No Content
         return NoContent();
