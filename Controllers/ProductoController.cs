@@ -12,15 +12,29 @@ public class ProductosController : ControllerBase {
         _context = context;
     }
 
-    //GET api/Productos (Incluyendo la Categoria)
+    ////GET api/Productos (Incluyendo la Categoria)
+    //[HttpGet]
+    //public async Task<ActionResult<IEnumerable<Producto>>> GetProductos()
+    //{
+    //    //EF Core: Traer todos los productos e incluir la info de la categoria
+    //    return await _context.Productos
+    //                    .Include(p => p.Categoria) // 👈 ESTE ES EL INCLUDE
+    //                    .ToListAsync();
+    //}
+
+    //GET: api/Productos
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Producto>>> GetProductos()
-    {
-        //EF Core: Traer todos los productos e incluir la info de la categoria
+    public async Task<ActionResult<IEnumerable<ProductoDetalleDto>>> GetProductosDto() {
         return await _context.Productos
-                        .Include(p => p.Categoria) // 👈 ESTE ES EL INCLUDE
-                        .ToListAsync();
-    }    
+                .Include(p => p.Categoria)
+                .Select(p => new ProductoDetalleDto // 👈 PROYECCIÓN: Transforma el Producto en DTO
+                {
+                    Id = p.Id,
+                    NombreProducto = p.Nombre,
+                    Precio = p.Precio
+                    NombreCategoria = p.Categoria.Nombre
+                }).ToListAsync();
+    }
 
     //GET: api/Productos/5
     [HttpGet("{id}")]
@@ -105,5 +119,7 @@ public class ProductosController : ControllerBase {
         //3. Ejecuta la consulta SQL y devuelve los resultados.
         return await consulta.ToListAsync();
     }
+
+
 
 }
