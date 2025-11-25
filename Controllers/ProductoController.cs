@@ -1,6 +1,7 @@
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MiBibliotecaAPI.Data;
+using MiBibliotecaAPI.Models;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -19,7 +20,7 @@ public class ProductosController : ControllerBase {
         return await _context.Productos
                         .Include(p => p.Categoria) // 👈 ESTE ES EL INCLUDE
                         .ToListAsync();
-    }
+    }    
 
     //GET: api/Productos/5
     [HttpGet("{id}")]
@@ -73,4 +74,36 @@ public class ProductosController : ControllerBase {
         //Devuelve un código HTTP 204, que es un código de éxito estándar.
         return NoContent();
     }
+
+    // GET: api/Productos/Buscar?nombre=leche&precioMax=5.00&categoriaId=3
+    [HttpGet("Buscar")]
+    public async Task<ActionResult<IEnumerable<Producto>>> BuscarProductos(
+            [FromQuery] string? nombre, // el nombre es opcional
+            [FromQuery] decimal? precioMax, //el precion máximo es opcional
+            [FromQuery] int? categoriaId) //el id de la categoria es opcional
+        {
+        //1. Inicia la consulta con todos los productos
+        IQueryable<Producto> consulta = _context.Productos.Include(p => p.Categoria);
+
+        //2. Aplica filtros condicionales:
+
+        //FILTRO POR  NOMBRE
+        if (!string.IsNullOrEmpty(nombre)){
+            consulta = consulta.Where(p => p.Nombre.Contains(nombre));
+        }
+
+        //FILTRO POR PRECIO MÁXIMO
+        if (precioMax.HasValue) {
+            consulta = consulta.Where(p => p.Precio <= precioMax.Value);
+        }
+
+        //FILTRO POR CATEGORIA
+        if (categoriaId.HasValue) {
+            consulta = consulta.Where(p => p.CategoriaId == categoriaId.Value);
+        }
+
+        //3. Ejecuta la consulta SQL y devuelve los resultados.
+        return await consulta.ToListAsync();
+    }
+
 }

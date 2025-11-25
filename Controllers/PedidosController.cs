@@ -15,7 +15,8 @@ public class PedidosController : ControllerBase {
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Pedido>>> GetPedidos() {
         return await _context.Pedidos
-            .Include(p => p.Cliente)
+            .Include(p => p.Productos)
+            .ThenInclude(p => p.Categoria)
             .ToListAsync();
         //Eager Loading, utilizas el método .Include() en tu consulta LINQ:
         //Se utiliza para evitar el problema de rendimiento conocido como "N+1 Query Problem".

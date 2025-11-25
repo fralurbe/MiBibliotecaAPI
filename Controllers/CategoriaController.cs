@@ -1,4 +1,5 @@
 using MiBibliotecaAPI.Data;
+using MiBibliotecaAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
