@@ -25,13 +25,12 @@ public class ProductosController : ControllerBase {
     //GET: api/Productos
     [HttpGet]
     public async Task<ActionResult<IEnumerable<ProductoDetalleDto>>> GetProductosDto() {
-        return await _context.Productos
-                .Include(p => p.Categoria)
+        return await _context.Productos                
                 .Select(p => new ProductoDetalleDto // 👈 PROYECCIÓN: Transforma el Producto en DTO
                 {
                     Id = p.Id,
                     NombreProducto = p.Nombre,
-                    Precio = p.Precio
+                    Precio = p.Precio,
                     NombreCategoria = p.Categoria.Nombre
                 }).ToListAsync();
     }
@@ -47,14 +46,15 @@ public class ProductosController : ControllerBase {
         return producto;
     }
 
-    // POST: api/Productos
-    [HttpPost]
-    public async Task<ActionResult<Producto>> PostProducto(Producto producto) {
-        _context.Productos.Add(producto);
-        await _context.SaveChangesAsync();
+    //// POST: api/Productos
+    ///post sin dto
+    //[HttpPost]
+    //public async Task<ActionResult<Producto>> PostProducto(Producto producto) {
+    //    _context.Productos.Add(producto);
+    //    await _context.SaveChangesAsync();
 
-        return CreatedAtAction(nameof(GetProducto), new { producto.Id }, producto);
-    }
+    //    return CreatedAtAction(nameof(GetProducto), new { producto.Id }, producto);
+    //}
 
     //PUT. api/productos/5
     [HttpPut]
@@ -120,6 +120,19 @@ public class ProductosController : ControllerBase {
         return await consulta.ToListAsync();
     }
 
+    //POST: api/Productos
+    [HttpPost]
+    public async Task<ActionResult<Producto>> PostProductoDto(CrearProductoDto productoDto) {
+        var productoEntidad = new Producto {
+            Nombre = productoDto.Nombre,
+            Precio = productoDto.Precio,
+            CategoriaId = productoDto.CategoriaId
+        };
+        //Se usa la entidad con EF Core
+        _context.Productos.Add(productoEntidad);
+        await _context.SaveChangesAsync();
 
+        return CreatedAtAction(nameof(GetProducto), new { id = productoEntidad.Id}, productoEntidad);
+    }
 
 }

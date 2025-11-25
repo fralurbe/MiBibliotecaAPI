@@ -67,18 +67,14 @@ public class ClientesController : ControllerBase {
         //añadido.
 
         //El Change Tracker sabe:
-
         //Cuál era el valor original del objeto.
-
         //Si el objeto ha sido modificado.
-
         //Si el objeto es nuevo o debe ser eliminado.
 
         //🎯 Cuándo se usa
-
         //Usas _context.Entry(objeto) cuando tienes un objeto en la memoria(RAM) y
         //necesitas informar a EF Core sobre el estado de ese objeto antes de llamar a
-        //SaveChangesAsync()./* CSS Document */
+        //SaveChangesAsync().
 
         //2. Marcar la entidad como modificada
         _context.Entry(cliente).State = EntityState.Modified;

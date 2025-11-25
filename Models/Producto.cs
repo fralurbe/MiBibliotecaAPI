@@ -7,7 +7,7 @@ namespace MiBibliotecaAPI.Models {
         public int CategoriaId { get; set; }
 
         //Propiedades de navegación: Referencia a la Categoria del producto.
-        public Categoria Categoria { get; set; } = null;
+        public Categoria Categoria { get; set; } = null!;
 
         //Lo hacemos anulable porque un producto puede no estar en ningun pedido.
         public int? PedidoId { get; set; }
