@@ -1,5 +1,6 @@
 using MiBibliotecaAPI.Data;
 using MiBibliotecaAPI.Models;
+using MiBliotecaAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,15 +12,33 @@ public class PedidosController : ControllerBase {
         _context = context;
     }
 
-    //GET: api/Pedidos
+    ////GET: api/Pedidos
+    //[HttpGet]
+    //public async Task<ActionResult<IEnumerable<Pedido>>> GetPedidos() {
+    //    return await _context.Pedidos
+    //        .Include(p => p.Productos)
+    //        .ThenInclude(p => p.Categoria)
+    //        .ToListAsync();
+    //    //Eager Loading, utilizas el método .Include() en tu consulta LINQ:
+    //    //Se utiliza para evitar el problema de rendimiento conocido como "N+1 Query Problem".
+    //}
+
+    //GET: api/pedidos
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Pedido>>> GetPedidos() {
+    public async Task<ActionResult<IEnumerable<PedidoDetalleDto>>> GetPedidos() {
+        //Usamos .Select() para proyectar desde Pedido a PedidoDetalleDto
         return await _context.Pedidos
-            .Include(p => p.Productos)
-            .ThenInclude(p => p.Categoria)
-            .ToListAsync();
-        //Eager Loading, utilizas el método .Include() en tu consulta LINQ:
-        //Se utiliza para evitar el problema de rendimiento conocido como "N+1 Query Problem".
+            .Select(p => new PedidoDetalleDto {
+                Id = p.Id,
+                TotalPedido = p.Total,
+                //Proyeccion anidada: Mapeamos la coleccion ICollection<Productos>
+                //a la ICollection<ProductoResumenDto>
+                Productos = p.Productos.Select(prod => new ProductoResumenDto {
+                    NombreProducto = prod.Nombre,
+                    PrecioUnidad = prod.Precio,
+                    NombreDeCategoria = prod.Nombre
+                }).ToList()
+            }).ToListAsync();
     }
 
     //GET: api/Pedidos/5

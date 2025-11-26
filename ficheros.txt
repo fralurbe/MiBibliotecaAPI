@@ -1,0 +1,2353 @@
+ El volumen de la unidad C es Samsung m2
+ El n£mero de serie del volumen es: AF53-0E70
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI
+
+25/11/2025  14:16    <DIR>          .
+25/11/2025  14:16    <DIR>          ..
+18/11/2025  07:37    <DIR>          .github
+17/11/2025  14:15             8.430 .gitignore
+17/11/2025  14:11               127 appsettings.Development.json
+18/11/2025  10:09               317 appsettings.json
+17/11/2025  14:23    <DIR>          bin
+25/11/2025  14:14    <DIR>          Controllers
+21/11/2025  14:52    <DIR>          Data
+20/11/2025  09:56    <DIR>          Documentacion
+24/11/2025  14:23               193 dotnet-tools.json
+25/11/2025  14:16                 0 ficheros.txt
+20/11/2025  11:12             1.116 MiBibliotecaAPI.csproj
+20/11/2025  13:01               464 MiBibliotecaAPI.csproj.user
+17/11/2025  14:11               143 MiBibliotecaAPI.http
+18/11/2025  07:38             1.142 MiBibliotecaAPI.sln
+24/11/2025  14:24    <DIR>          Migrations
+25/11/2025  13:52    <DIR>          Models
+25/11/2025  13:59    <DIR>          obj
+19/11/2025  13:46             1.641 Program.cs
+19/11/2025  13:35    <DIR>          Properties
+              10 archivos         13.573 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git
+
+25/11/2025  14:12                16 COMMIT_EDITMSG
+17/11/2025  14:08               326 config
+17/11/2025  14:08                73 description
+19/11/2025  14:36               103 FETCH_HEAD
+17/11/2025  14:08    <DIR>          fsmonitor--daemon
+17/11/2025  14:08                21 HEAD
+17/11/2025  14:08    <DIR>          hooks
+25/11/2025  14:12             5.114 index
+17/11/2025  14:08    <DIR>          info
+17/11/2025  14:13    <DIR>          logs
+25/11/2025  14:12               262 ms-persist.xml
+25/11/2025  14:12    <DIR>          objects
+19/11/2025  09:08                41 ORIG_HEAD
+17/11/2025  14:13    <DIR>          refs
+               8 archivos          5.956 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\fsmonitor--daemon
+
+17/11/2025  14:08    <DIR>          .
+17/11/2025  14:08    <DIR>          ..
+25/11/2025  14:14    <DIR>          cookies
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\fsmonitor--daemon\cookies
+
+25/11/2025  14:14    <DIR>          .
+25/11/2025  14:14    <DIR>          ..
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\hooks
+
+17/11/2025  14:08    <DIR>          .
+17/11/2025  14:08    <DIR>          ..
+17/11/2025  14:08               478 applypatch-msg.sample
+17/11/2025  14:08               896 commit-msg.sample
+17/11/2025  14:08             4.726 fsmonitor-watchman.sample
+17/11/2025  14:08               189 post-update.sample
+17/11/2025  14:08               424 pre-applypatch.sample
+17/11/2025  14:08             1.649 pre-commit.sample
+17/11/2025  14:08               416 pre-merge-commit.sample
+17/11/2025  14:08             1.374 pre-push.sample
+17/11/2025  14:08             4.898 pre-rebase.sample
+17/11/2025  14:08               544 pre-receive.sample
+17/11/2025  14:08             1.492 prepare-commit-msg.sample
+17/11/2025  14:08             2.783 push-to-checkout.sample
+17/11/2025  14:08             2.308 sendemail-validate.sample
+17/11/2025  14:08             3.650 update.sample
+              14 archivos         25.827 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\info
+
+17/11/2025  14:08    <DIR>          .
+17/11/2025  14:08    <DIR>          ..
+17/11/2025  14:08               240 exclude
+               1 archivos            240 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\logs
+
+17/11/2025  14:13    <DIR>          .
+17/11/2025  14:13    <DIR>          ..
+25/11/2025  14:12             2.656 HEAD
+17/11/2025  14:13    <DIR>          refs
+               1 archivos          2.656 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\logs\refs
+
+17/11/2025  14:13    <DIR>          .
+17/11/2025  14:13    <DIR>          ..
+17/11/2025  14:13    <DIR>          heads
+17/11/2025  14:13    <DIR>          remotes
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\logs\refs\heads
+
+17/11/2025  14:13    <DIR>          .
+17/11/2025  14:13    <DIR>          ..
+25/11/2025  14:12             2.656 main
+               1 archivos          2.656 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\logs\refs\remotes
+
+17/11/2025  14:13    <DIR>          .
+17/11/2025  14:13    <DIR>          ..
+19/11/2025  09:08    <DIR>          origin
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\logs\refs\remotes\origin
+
+19/11/2025  09:08    <DIR>          .
+19/11/2025  09:08    <DIR>          ..
+19/11/2025  09:08               140 HEAD
+25/11/2025  14:12             1.937 main
+               2 archivos          2.077 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects
+
+25/11/2025  14:12    <DIR>          .
+25/11/2025  14:12    <DIR>          ..
+17/11/2025  14:12    <DIR>          00
+17/11/2025  14:19    <DIR>          01
+17/11/2025  14:25    <DIR>          03
+20/11/2025  14:04    <DIR>          04
+21/11/2025  11:49    <DIR>          06
+25/11/2025  14:12    <DIR>          09
+20/11/2025  14:04    <DIR>          0a
+20/11/2025  14:04    <DIR>          0b
+17/11/2025  14:12    <DIR>          0c
+20/11/2025  14:04    <DIR>          0d
+17/11/2025  14:26    <DIR>          0e
+20/11/2025  14:53    <DIR>          0f
+17/11/2025  14:19    <DIR>          10
+19/11/2025  14:36    <DIR>          14
+18/11/2025  13:23    <DIR>          17
+17/11/2025  14:18    <DIR>          19
+17/11/2025  14:18    <DIR>          1a
+24/11/2025  12:38    <DIR>          1b
+18/11/2025  13:23    <DIR>          1e
+18/11/2025  14:25    <DIR>          1f
+20/11/2025  14:04    <DIR>          24
+18/11/2025  13:23    <DIR>          25
+25/11/2025  14:12    <DIR>          27
+21/11/2025  12:45    <DIR>          28
+17/11/2025  14:25    <DIR>          29
+19/11/2025  14:36    <DIR>          2a
+24/11/2025  12:38    <DIR>          2c
+19/11/2025  14:36    <DIR>          2d
+18/11/2025  13:23    <DIR>          2f
+21/11/2025  11:49    <DIR>          31
+25/11/2025  14:12    <DIR>          33
+25/11/2025  12:31    <DIR>          34
+20/11/2025  14:04    <DIR>          36
+20/11/2025  14:04    <DIR>          37
+20/11/2025  14:04    <DIR>          3b
+17/11/2025  14:12    <DIR>          3d
+17/11/2025  14:26    <DIR>          40
+24/11/2025  12:38    <DIR>          42
+20/11/2025  14:04    <DIR>          44
+19/11/2025  14:36    <DIR>          45
+17/11/2025  14:26    <DIR>          46
+19/11/2025  14:36    <DIR>          47
+17/11/2025  14:13    <DIR>          49
+17/11/2025  14:18    <DIR>          4a
+24/11/2025  12:38    <DIR>          4c
+25/11/2025  11:24    <DIR>          4d
+25/11/2025  11:24    <DIR>          4f
+17/11/2025  14:13    <DIR>          51
+20/11/2025  14:04    <DIR>          52
+25/11/2025  11:24    <DIR>          53
+20/11/2025  14:04    <DIR>          55
+25/11/2025  11:24    <DIR>          56
+25/11/2025  14:12    <DIR>          58
+18/11/2025  13:23    <DIR>          5b
+19/11/2025  14:36    <DIR>          5c
+17/11/2025  14:25    <DIR>          5d
+18/11/2025  13:23    <DIR>          5f
+17/11/2025  14:26    <DIR>          63
+18/11/2025  13:23    <DIR>          66
+18/11/2025  13:23    <DIR>          68
+20/11/2025  14:53    <DIR>          6d
+20/11/2025  14:04    <DIR>          70
+20/11/2025  14:04    <DIR>          76
+18/11/2025  13:23    <DIR>          77
+25/11/2025  12:31    <DIR>          7c
+19/11/2025  14:36    <DIR>          81
+25/11/2025  11:24    <DIR>          83
+24/11/2025  12:38    <DIR>          84
+19/11/2025  14:36    <DIR>          86
+18/11/2025  13:23    <DIR>          89
+25/11/2025  14:12    <DIR>          8a
+21/11/2025  11:49    <DIR>          8b
+17/11/2025  14:25    <DIR>          8c
+20/11/2025  14:04    <DIR>          8d
+21/11/2025  12:45    <DIR>          8e
+25/11/2025  11:24    <DIR>          90
+20/11/2025  14:04    <DIR>          92
+18/11/2025  13:23    <DIR>          93
+19/11/2025  14:36    <DIR>          96
+20/11/2025  14:04    <DIR>          9c
+19/11/2025  14:36    <DIR>          9d
+25/11/2025  14:12    <DIR>          9e
+24/11/2025  12:38    <DIR>          a7
+18/11/2025  13:23    <DIR>          a8
+20/11/2025  14:04    <DIR>          a9
+25/11/2025  14:12    <DIR>          ab
+19/11/2025  14:36    <DIR>          ad
+20/11/2025  14:04    <DIR>          ae
+25/11/2025  11:24    <DIR>          af
+21/11/2025  11:49    <DIR>          b0
+20/11/2025  14:04    <DIR>          b1
+18/11/2025  13:23    <DIR>          b2
+17/11/2025  14:19    <DIR>          b5
+25/11/2025  11:24    <DIR>          b6
+25/11/2025  12:31    <DIR>          b7
+19/11/2025  14:36    <DIR>          b8
+25/11/2025  12:31    <DIR>          ba
+25/11/2025  14:12    <DIR>          bb
+25/11/2025  11:24    <DIR>          bc
+25/11/2025  11:24    <DIR>          be
+19/11/2025  14:36    <DIR>          c1
+25/11/2025  11:24    <DIR>          c2
+20/11/2025  14:04    <DIR>          c5
+20/11/2025  14:53    <DIR>          c6
+25/11/2025  12:31    <DIR>          c7
+17/11/2025  14:26    <DIR>          cb
+25/11/2025  11:24    <DIR>          cc
+25/11/2025  14:12    <DIR>          cd
+18/11/2025  13:23    <DIR>          ce
+20/11/2025  14:04    <DIR>          d1
+17/11/2025  14:12    <DIR>          d2
+21/11/2025  12:45    <DIR>          d6
+17/11/2025  14:18    <DIR>          da
+20/11/2025  14:04    <DIR>          dc
+21/11/2025  12:45    <DIR>          dd
+24/11/2025  12:38    <DIR>          e1
+24/11/2025  12:38    <DIR>          e2
+25/11/2025  12:31    <DIR>          e3
+17/11/2025  14:19    <DIR>          e4
+25/11/2025  11:24    <DIR>          e6
+20/11/2025  14:53    <DIR>          e7
+19/11/2025  14:36    <DIR>          e8
+17/11/2025  14:12    <DIR>          e9
+19/11/2025  14:36    <DIR>          ea
+20/11/2025  14:04    <DIR>          eb
+17/11/2025  14:12    <DIR>          ee
+25/11/2025  11:24    <DIR>          f1
+20/11/2025  14:04    <DIR>          f2
+25/11/2025  11:24    <DIR>          f3
+17/11/2025  14:13    <DIR>          f4
+19/11/2025  14:36    <DIR>          f7
+18/11/2025  13:23    <DIR>          f8
+17/11/2025  14:12    <DIR>          fc
+19/11/2025  14:36    <DIR>          fd
+17/11/2025  14:08    <DIR>          info
+17/11/2025  14:08    <DIR>          pack
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\00
+
+17/11/2025  14:12    <DIR>          .
+17/11/2025  14:12    <DIR>          ..
+17/11/2025  14:12               211 77099455c5f61d5808182b183c0ec64da06a33
+               1 archivos            211 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\01
+
+17/11/2025  14:19    <DIR>          .
+17/11/2025  14:19    <DIR>          ..
+17/11/2025  14:19               216 473a3c056697b68fbb2d6b0a125134dd84bfa8
+               1 archivos            216 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\03
+
+17/11/2025  14:25    <DIR>          .
+17/11/2025  14:25    <DIR>          ..
+17/11/2025  14:25             1.730 34d0a1925eea68bc7f07912028bbf03912886b
+               1 archivos          1.730 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\04
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+19/11/2025  14:36             1.015 2f5750e56a17d85b1935cb05f8e71599c96fb3
+20/11/2025  14:04               601 30b09766a16d8f115f3129c62b2546aa29b9e9
+               2 archivos          1.616 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\06
+
+21/11/2025  11:49    <DIR>          .
+21/11/2025  11:49    <DIR>          ..
+21/11/2025  11:49               184 00426f7d9c1fc873ea2fba8e6842d86470396e
+17/11/2025  14:26                57 2c3def00187f47f078e86dfbebd40f41bf0b31
+               2 archivos            241 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\09
+
+25/11/2025  14:12    <DIR>          .
+25/11/2025  14:12    <DIR>          ..
+25/11/2025  14:12               343 3ea94a206d7c404242f636cf95b7d0948e4696
+17/11/2025  14:12               253 65cb739a9da56bd3575f0f52744076e56743ce
+               2 archivos            596 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\0a
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04               671 d4447a3019eac2e777ba74b240c86e53dca455
+               1 archivos            671 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\0b
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+19/11/2025  14:36               513 6c51224c5409bea84b2d8d333de29b21995b0a
+20/11/2025  14:04             2.540 c3244b5b23c0f34e91178cfd44ec20b85a50af
+               2 archivos          3.053 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\0c
+
+17/11/2025  14:12    <DIR>          .
+17/11/2025  14:12    <DIR>          ..
+17/11/2025  14:12               108 208ae9181e5e5717e47ec1bd59368aebc6066e
+               1 archivos            108 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\0d
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04             1.038 cfe989c0928cdb73728216948dee3d9f4b88dc
+               1 archivos          1.038 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\0e
+
+17/11/2025  14:26    <DIR>          .
+17/11/2025  14:26    <DIR>          ..
+17/11/2025  14:26                45 646fdd8d762a45e39d101f99985d8211f67305
+               1 archivos             45 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\0f
+
+20/11/2025  14:53    <DIR>          .
+20/11/2025  14:53    <DIR>          ..
+20/11/2025  14:53               222 82f2950387eeaa4e3b50a38a2d87bb6f8d8a42
+               1 archivos            222 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\10
+
+17/11/2025  14:19    <DIR>          .
+17/11/2025  14:19    <DIR>          ..
+17/11/2025  14:19               184 52d782509a32aa832d55e1080c1bdf1baf04cb
+17/11/2025  14:12               127 f68b8c8b4f796baf8ddeee7551b6a52b9437cc
+               2 archivos            311 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\14
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36               216 2ed2644dec148904fbd90a8e775355bb23b447
+               1 archivos            216 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\17
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+18/11/2025  13:23               742 53b735841342293606504c1af7854edee2c217
+               1 archivos            742 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\19
+
+17/11/2025  14:18    <DIR>          .
+17/11/2025  14:18    <DIR>          ..
+17/11/2025  14:18             1.860 e89bbf85d2f949709049c5ea169c7782dcf84c
+               1 archivos          1.860 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\1a
+
+17/11/2025  14:18    <DIR>          .
+17/11/2025  14:18    <DIR>          ..
+17/11/2025  14:18               907 51d995c0a71819e64bd5fd405acb3d1a44919c
+               1 archivos            907 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\1b
+
+24/11/2025  12:38    <DIR>          .
+24/11/2025  12:38    <DIR>          ..
+24/11/2025  12:38                68 b21ae4a355015c939b62930cc4ddb9f0aa5ded
+               1 archivos             68 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\1e
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+18/11/2025  13:23                93 936ad8f1836caf2b70c557b56a52b1345329d3
+               1 archivos             93 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\1f
+
+18/11/2025  14:25    <DIR>          .
+18/11/2025  14:25    <DIR>          ..
+18/11/2025  14:25               181 5c60a5dd27dc4975dbef9cf39f6bed6da9456e
+               1 archivos            181 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\24
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+19/11/2025  14:36               192 248e04c402cd716c6a5af5cb09e1936582c24e
+20/11/2025  14:04                57 decc6e56d3e22205cefb50c61c3054e7314cec
+               2 archivos            249 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\25
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+18/11/2025  13:23                64 212e85cc17590cc3644aab8c9dc341aba79bd5
+               1 archivos             64 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\27
+
+25/11/2025  14:12    <DIR>          .
+25/11/2025  14:12    <DIR>          ..
+17/11/2025  14:13                64 709bdce460d28a241a51ab86a46c45ff4a1e92
+25/11/2025  14:12               290 7b1ae8898427c295c1ad5dfd66e88b4d74093d
+24/11/2025  12:38               210 cf5792782c8c49f45265bde501e0d6fcab46b4
+               3 archivos            564 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\28
+
+21/11/2025  12:45    <DIR>          .
+21/11/2025  12:45    <DIR>          ..
+21/11/2025  12:45               223 49b93b02e9204ebffff7020b42d17c480ab679
+               1 archivos            223 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\29
+
+17/11/2025  14:25    <DIR>          .
+17/11/2025  14:25    <DIR>          ..
+17/11/2025  14:26               237 8fe8b52b1cd8d2888f4cb5a7d6474a01de3c25
+               1 archivos            237 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\2a
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+18/11/2025  14:25                95 64203aab14ab8be02723699498a8bddf786f73
+19/11/2025  14:36               349 d163330b5d691d5f906b0df864001bf833e8bb
+               2 archivos            444 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\2c
+
+24/11/2025  12:38    <DIR>          .
+24/11/2025  12:38    <DIR>          ..
+24/11/2025  12:38               519 0d6ed31e5a6ac276bebf9ea5e8d686b5dba322
+               1 archivos            519 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\2d
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36               203 dbd56377edf4274291c5f6fbe7620191cf1b66
+               1 archivos            203 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\2f
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+18/11/2025  13:23                68 fa8dddc410ef302bc399f568f2f71a6449585f
+               1 archivos             68 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\31
+
+21/11/2025  11:49    <DIR>          .
+21/11/2025  11:49    <DIR>          ..
+21/11/2025  11:49               517 19ec42705062b2ac7119a6a055a0ac912d54c5
+17/11/2025  14:19                57 b72f55ca302edd5b1ec511f76b0240d1f6870e
+               2 archivos            574 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\33
+
+25/11/2025  14:12    <DIR>          .
+25/11/2025  14:12    <DIR>          ..
+25/11/2025  14:12               165 a9925daa3e5dac335fa5ad26296b6cc7689474
+17/11/2025  14:26             2.570 c545d4dafbab59d2874c404819b88007718179
+               2 archivos          2.735 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\34
+
+25/11/2025  12:31    <DIR>          .
+25/11/2025  12:31    <DIR>          ..
+19/11/2025  14:36                93 0047f44d556ceeda80b3c604795181001d1fd0
+25/11/2025  12:31               555 b97a5b7fc6d5d97d56a52c63dc805b5a4c1c0a
+               2 archivos            648 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\36
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04               378 269c59e43de8591ec42ac9df70dbc1161529dc
+               1 archivos            378 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\37
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04               936 d8cebfaac128906f268e3acc64de0ee1385f03
+19/11/2025  14:36               519 f150cc4994f913d4e15e66cfec496773aa8b8f
+               2 archivos          1.455 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\3b
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+19/11/2025  14:36               894 1ef200fc65679a906f13452d4b43783202bd80
+20/11/2025  14:04             1.048 8f7d689560e7eaae75a1dc34c2448319cd8566
+19/11/2025  14:36               806 fa19ad553f86c23d8d17b4d53814669e83ca50
+               3 archivos          2.748 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\3d
+
+17/11/2025  14:12    <DIR>          .
+17/11/2025  14:12    <DIR>          ..
+17/11/2025  14:12               145 c06ef3cc4057524bf5d2cd49936dff789cebe8
+               1 archivos            145 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\40
+
+17/11/2025  14:26    <DIR>          .
+17/11/2025  14:26    <DIR>          ..
+17/11/2025  14:26               187 f72c50742d8c675ef4d7ca364c76c06bf64a5d
+               1 archivos            187 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\42
+
+24/11/2025  12:38    <DIR>          .
+24/11/2025  12:38    <DIR>          ..
+24/11/2025  12:38               638 c5562c7ed30348e30ab6047215d52d86cfe5de
+               1 archivos            638 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\44
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04               517 d8e8423a2260d37516212d4814222ea34889fd
+               1 archivos            517 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\45
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36               909 833485e6e65dc513f0b7def3d93fd4ff968c1b
+               1 archivos            909 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\46
+
+17/11/2025  14:26    <DIR>          .
+17/11/2025  14:26    <DIR>          ..
+17/11/2025  14:26                83 95a8cf339255c84bd19f2fe31c85769bbc94e1
+               1 archivos             83 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\47
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36               159 cad655ee9ea460c6399b4cef529598515c2a65
+               1 archivos            159 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\49
+
+17/11/2025  14:13    <DIR>          .
+17/11/2025  14:13    <DIR>          ..
+17/11/2025  14:13                45 f8a589617fa8a80bdedf6e7c02d7278a382cdf
+               1 archivos             45 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\4a
+
+17/11/2025  14:18    <DIR>          .
+17/11/2025  14:18    <DIR>          ..
+17/11/2025  14:18             1.723 48e94be5680eeb597f694a57f4df096c6844a6
+17/11/2025  14:12               276 a34a27aff4a6044c179ccec53811f40d1e7206
+               2 archivos          1.999 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\4c
+
+24/11/2025  12:38    <DIR>          .
+24/11/2025  12:38    <DIR>          ..
+24/11/2025  12:38             1.444 7df5e8706c096db8ee973e0252dbb6fdfcc695
+               1 archivos          1.444 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\4d
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+25/11/2025  11:24             1.285 60849bd8593f300496e340168fc0dac2016daf
+               1 archivos          1.285 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\4f
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+25/11/2025  11:24               129 487990c2448fe10f41f5de7be45c7bd705ec4f
+               1 archivos            129 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\51
+
+17/11/2025  14:13    <DIR>          .
+17/11/2025  14:13    <DIR>          ..
+17/11/2025  14:13                57 68008388f158c649d5f2b1397201b04f427e95
+17/11/2025  14:13               297 caf5a77d86f4c053bdd4820b66e1d3a708d792
+               2 archivos            354 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\52
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04                46 4444ee550d9ab1869bc15a772489ab17e01619
+               1 archivos             46 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\53
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+25/11/2025  11:24             1.342 94cbdf5c0e92110fce65918d0b03db4fc4677f
+               1 archivos          1.342 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\55
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04               215 967d7d3aee4b4fc05e18fef78d03da725b65ac
+               1 archivos            215 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\56
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+25/11/2025  11:24               466 3bb945f2268447560a3a6882cd0fc0805f0c1f
+               1 archivos            466 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\58
+
+25/11/2025  14:12    <DIR>          .
+25/11/2025  14:12    <DIR>          ..
+25/11/2025  14:12               958 550c449760592d657b1cb5f516cbc7fe5eb9b5
+17/11/2025  14:12               875 64bb79d600c1cfec100ca317af160743d0a77a
+               2 archivos          1.833 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\5b
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+18/11/2025  13:23                62 e944f015289ad0325aa7e189e98bf02bc3c229
+               1 archivos             62 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\5c
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36                63 ae0039660beca734c1b6d2e120552fd0109c8c
+               1 archivos             63 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\5d
+
+17/11/2025  14:25    <DIR>          .
+17/11/2025  14:25    <DIR>          ..
+17/11/2025  14:25               444 953d93703ec505439d4b47c69b6ded37f9adaf
+               1 archivos            444 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\5f
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+18/11/2025  13:23             1.698 068ab35a24f2d95faac98531ae08227f9de24c
+17/11/2025  14:13                93 fca976abd6524c01d21ce18c3a6f0335a934a6
+               2 archivos          1.791 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\63
+
+17/11/2025  14:26    <DIR>          .
+17/11/2025  14:26    <DIR>          ..
+17/11/2025  14:26                93 a40757030e9d93d6582ffcca56d95aca1a7eac
+17/11/2025  14:18               312 dbe0e48b7097eea9748e3757f4c3032a212ea5
+               2 archivos            405 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\66
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+18/11/2025  14:25             1.313 f989038d03260114019a41c0aa6cc90a0588db
+               1 archivos          1.313 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\68
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+18/11/2025  13:23                45 9ec12066e355159327a479ed58005d1e892218
+               1 archivos             45 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\6d
+
+20/11/2025  14:53    <DIR>          .
+20/11/2025  14:53    <DIR>          ..
+18/11/2025  14:25               518 5251972edb80e4dba70d9365b7b7f2675c8a41
+20/11/2025  14:53               180 ab0423b64024984b4954304201886af43e977b
+               2 archivos            698 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\70
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04               222 edcaa26f2f71841f64f666719a52b66869085e
+               1 archivos            222 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\76
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04                68 18823abd7715d2cd162e43e18083407697181e
+18/11/2025  13:23               996 c73b912a3c7c6f8421538e7f8e74a17ec6b84e
+               2 archivos          1.064 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\77
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+18/11/2025  13:23             2.002 8d6bdb0666ef6f30dfa09657847da039ed58f4
+               1 archivos          2.002 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\7c
+
+25/11/2025  12:31    <DIR>          .
+25/11/2025  12:31    <DIR>          ..
+25/11/2025  12:31               289 60dc6a82b1bf51bf1efd586d4853091b3f2a2d
+               1 archivos            289 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\81
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36               330 db0ccf3af42fbe3221ce370c68e407958b6893
+               1 archivos            330 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\83
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+25/11/2025  11:24             1.467 57ab85d34827df52906729a1f0a43e26dfe4f2
+               1 archivos          1.467 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\84
+
+24/11/2025  12:38    <DIR>          .
+24/11/2025  12:38    <DIR>          ..
+18/11/2025  13:23               298 8e5764ea14c8ebd217391a4d9c3aaa9b3a5eea
+24/11/2025  12:38               275 f63e4c724ca2a309b62b473991ead5b70e8751
+               2 archivos            573 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\86
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36               150 f9caa46a8e25ac9b05cf97791a718072c3b37b
+               1 archivos            150 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\89
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+18/11/2025  13:23               330 fe3cc2d27da651d057423d84c7c9c741685338
+               1 archivos            330 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\8a
+
+25/11/2025  14:12    <DIR>          .
+25/11/2025  14:12    <DIR>          ..
+25/11/2025  14:12             1.892 9002dc55e80c24fd8962145b34fbbafe447ad0
+               1 archivos          1.892 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\8b
+
+21/11/2025  11:49    <DIR>          .
+21/11/2025  11:49    <DIR>          ..
+21/11/2025  11:49             1.441 bd1beea0fd8a75f2bf4a3e438801a1eaa40c52
+               1 archivos          1.441 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\8c
+
+17/11/2025  14:25    <DIR>          .
+17/11/2025  14:25    <DIR>          ..
+17/11/2025  14:26               179 eafcc57fb4a16132db3ce55f0223163b636206
+               1 archivos            179 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\8d
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04            42.119 a66b3e67bb9dd02edbf671f42712eb7dbe4962
+               1 archivos         42.119 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\8e
+
+21/11/2025  12:45    <DIR>          .
+21/11/2025  12:45    <DIR>          ..
+21/11/2025  12:45               170 cef890b9f04875b18334eed97ca077d7702d67
+20/11/2025  14:04               211 f004e65e52d27e4f6d8f89102faad2a5d4ff15
+19/11/2025  14:36               914 f1e97e39d48f9376d6335b2df79c3dbb8f2fc6
+               3 archivos          1.295 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\90
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+25/11/2025  11:24             1.230 8aa09ecd2a64834e6adaadee74f15218af1f2b
+               1 archivos          1.230 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\92
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04               791 0d879068b7883db7565216e40f275f3172d3af
+               1 archivos            791 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\93
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+18/11/2025  13:23               447 e4f02910cdba375b08df79ba388bcc0b188497
+               1 archivos            447 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\96
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+18/11/2025  13:23               741 204144b92bdf8f5216a500e7323f0f37eb107e
+19/11/2025  14:36                45 585af870613325065211172538bc3bbe5b1c44
+               2 archivos            786 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\9c
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04               235 76480c9d9b36b929a768fd0e84d0575068b835
+19/11/2025  14:36               310 cdd66fa83cd6e1168edb51c2417ca889d875dc
+18/11/2025  13:23             1.236 f82e3976a09f3bf7d80e8a1c4635fe45b72fec
+               3 archivos          1.781 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\9d
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36               348 9ff9bf751ad6ff7811582413162dcb7d440209
+               1 archivos            348 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\9e
+
+25/11/2025  14:12    <DIR>          .
+25/11/2025  14:12    <DIR>          ..
+19/11/2025  14:36               493 8a2a58815d309b5ad33b518972c0f2805dd255
+25/11/2025  14:12               306 d04e489a83767ca08a22595a1604a2c0d7b6e9
+               2 archivos            799 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\a7
+
+24/11/2025  12:38    <DIR>          .
+24/11/2025  12:38    <DIR>          ..
+24/11/2025  12:38               290 ae8a90b6e386c590246c93676b9b2366732b97
+               1 archivos            290 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\a8
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+18/11/2025  13:23             6.892 431ed755bea18756a2616af5eaad6371726f0c
+               1 archivos          6.892 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\a9
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+18/11/2025  13:23               791 aa4b384e1c822ff4f96468cae3fd881ed6da53
+20/11/2025  14:04               391 c4b6ba11483bd4452384791f17d4c063c99eae
+               2 archivos          1.182 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\ab
+
+25/11/2025  14:12    <DIR>          .
+25/11/2025  14:12    <DIR>          ..
+25/11/2025  14:12               215 6ceea23d16cd42f628054a7fad2e87c6f163a3
+               1 archivos            215 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\ad
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36               799 d56744c28faf1bf72beb8382f27afca718a800
+               1 archivos            799 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\ae
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04               195 4283476b86f6f2a64c9e3d0874a3e34bc6c8da
+               1 archivos            195 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\af
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+25/11/2025  11:24               281 4232c990c4f6d21822be6990ddc2f26919324d
+17/11/2025  14:18               285 8caffb611c81ac2fcfc21f526375db9b2236ad
+19/11/2025  14:36               583 8e323f4565386a64061525866ec067aad01867
+               3 archivos          1.149 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\b0
+
+21/11/2025  11:49    <DIR>          .
+21/11/2025  11:49    <DIR>          ..
+21/11/2025  11:49               222 18b09eb6f838c37210e002f0c68d67940fed00
+19/11/2025  14:36               169 85a23fce46a399c6780e709022fa1d3f258c72
+               2 archivos            391 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\b1
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04             2.605 81379a61abf4b7f00b8c517d4762d374033dba
+18/11/2025  13:23               218 f14032b2e9a05989570cd3780d919375a8cfc2
+               2 archivos          2.823 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\b2
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+18/11/2025  13:23               171 813560fe4a8593fa7bbfad97d69c6a60a885e6
+               1 archivos            171 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\b5
+
+17/11/2025  14:19    <DIR>          .
+17/11/2025  14:19    <DIR>          ..
+17/11/2025  14:19                45 4c090a7bc0b5d532668d2b3ce403701fde086c
+               1 archivos             45 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\b6
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+20/11/2025  14:04               494 6a7d1a47a57c2939196c82f5a7d412a3d75295
+25/11/2025  11:24               741 f03e4e6a84bc95535b4f38103825731a62e0c1
+               2 archivos          1.235 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\b7
+
+25/11/2025  12:31    <DIR>          .
+25/11/2025  12:31    <DIR>          ..
+25/11/2025  12:31               308 65d7b799a58aa13edc28fd27dea2e65286f97a
+               1 archivos            308 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\b8
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36                57 115f6562acebddbb9ccdf157ac1f55b1308be5
+               1 archivos             57 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\ba
+
+25/11/2025  12:31    <DIR>          .
+25/11/2025  12:31    <DIR>          ..
+25/11/2025  12:31             1.483 4c1a9cab1e598cb747b24f8b99278459923d08
+               1 archivos          1.483 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\bb
+
+25/11/2025  14:12    <DIR>          .
+25/11/2025  14:12    <DIR>          ..
+25/11/2025  14:12             1.640 84bcf8cfebade61c978d5718d05e97e9d354d8
+               1 archivos          1.640 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\bc
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+17/11/2025  14:18             3.681 78471db12ff8f121dd5bf5c358b20efdace747
+25/11/2025  11:24               181 fd05d5cac39861805af25884b5c14bc01ab823
+               2 archivos          3.862 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\be
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+25/11/2025  11:24               239 20d8459430485a6d8075ddc3b5338edc6941d4
+               1 archivos            239 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\c1
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36               635 e25384ba199a2ee28f9226d65e0a37ab077364
+               1 archivos            635 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\c2
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+18/11/2025  13:23            26.510 9e85dbc0b047427f935abd383eab856f29573d
+25/11/2025  11:24               304 a51f3d98c4aec0da0e585e4967c0ad6d775618
+               2 archivos         26.814 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\c5
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04                93 db050b41b312b3fffc950b56c1ad75d9ad542b
+17/11/2025  14:26               838 fb0fac29ce04fdcb1a7c81737fc0c645e95306
+               2 archivos            931 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\c6
+
+20/11/2025  14:53    <DIR>          .
+20/11/2025  14:53    <DIR>          ..
+20/11/2025  14:53               517 98b8fbf778ec60207d27965717a198e10ed556
+18/11/2025  14:25             1.363 c37845eecc6933883be01407945dfa0be7523c
+               2 archivos          1.880 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\c7
+
+25/11/2025  12:31    <DIR>          .
+25/11/2025  12:31    <DIR>          ..
+18/11/2025  13:23               211 0ae16783e5c4c59a74ccaa4ba8a855d44d071d
+25/11/2025  12:31               249 c4b70424ae9bcfa38627dc107426624fe0bcc8
+24/11/2025  12:38               188 ced5fa49fd9bf691b6676b5afdd6990b4134be
+               3 archivos            648 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\cb
+
+17/11/2025  14:26    <DIR>          .
+17/11/2025  14:26    <DIR>          ..
+17/11/2025  14:26               362 2bc8d595d6b6330caf1e7fe61aa6691002ab22
+               1 archivos            362 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\cc
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+25/11/2025  11:24               555 5fb1d2ab90f4d2407df35cb35408b6168b6add
+               1 archivos            555 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\cd
+
+25/11/2025  14:12    <DIR>          .
+25/11/2025  14:12    <DIR>          ..
+25/11/2025  14:12               555 c167198f119915a888e23a6728a695da109d66
+20/11/2025  14:04               172 ca3591cf034295365a896629d6821af4b7cf40
+               2 archivos            727 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\ce
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+17/11/2025  14:12             1.418 032cdb0d2e7a1606b4d8b9dcb277adbbf9296f
+18/11/2025  13:23               621 275446d0aa52ae829a34890aa05fdfa9fdfc67
+               2 archivos          2.039 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\d1
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04             1.871 b6503fc7ac0e387c5d41df24edc144a802fa85
+               1 archivos          1.871 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\d2
+
+17/11/2025  14:12    <DIR>          .
+17/11/2025  14:12    <DIR>          ..
+17/11/2025  14:12               127 cde4f9bd679b323f6411a99141a1090d86ccb6
+               1 archivos            127 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\d6
+
+21/11/2025  12:45    <DIR>          .
+21/11/2025  12:45    <DIR>          ..
+19/11/2025  14:36               937 171e7e1838fc4c34e34233d8f7640148c096fb
+21/11/2025  12:45             1.148 de74c07d8cfc83dd4c968152694f3e9e0b46f6
+               2 archivos          2.085 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\da
+
+17/11/2025  14:18    <DIR>          .
+17/11/2025  14:18    <DIR>          ..
+17/11/2025  14:18               610 af43d9b64cbb689eadf691f65a0946915b793c
+               1 archivos            610 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\dc
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+18/11/2025  13:23               518 1a391b8a8c85fd3d3af782a5cf8f49275ea8dd
+20/11/2025  14:04                62 248a144d4f8ced7414f2fa0bd80882790baaaa
+18/11/2025  13:23               215 6127a25d5d4d6a524ff73d67d836309dc4df93
+17/11/2025  14:19                93 629c0d709f952f697d22846e47dcf710f63697
+               4 archivos            888 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\dd
+
+21/11/2025  12:45    <DIR>          .
+21/11/2025  12:45    <DIR>          ..
+21/11/2025  12:45               517 df572cb2c1d5be7365d0c032801b9d93506fbc
+               1 archivos            517 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\e1
+
+24/11/2025  12:38    <DIR>          .
+24/11/2025  12:38    <DIR>          ..
+24/11/2025  12:38               927 49503c7a1cafa1374a55efe7b3f429f8c972e2
+               1 archivos            927 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\e2
+
+24/11/2025  12:38    <DIR>          .
+24/11/2025  12:38    <DIR>          ..
+18/11/2025  13:23               461 531561e9ea7cf8805bfecccf9a782d241f55a0
+24/11/2025  12:38               231 a958aef68acfa71d74b3af3052f02fd817eda4
+19/11/2025  14:36               148 c2eeec627ee2ea8f626fcf5ddbbfd52786240d
+               3 archivos            840 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\e3
+
+25/11/2025  12:31    <DIR>          .
+25/11/2025  12:31    <DIR>          ..
+24/11/2025  12:38               913 0810231dd8fdab29eafa7c0b3d21d5ded3b6d3
+25/11/2025  12:31               239 d586d96b19fae1467ba73a6d9723050457d5e6
+               2 archivos          1.152 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\e4
+
+17/11/2025  14:19    <DIR>          .
+17/11/2025  14:19    <DIR>          ..
+17/11/2025  14:19               332 edb9f65cab458c062541784fbce742c72bec98
+               1 archivos            332 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\e6
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+25/11/2025  11:24               275 8331b06d6f0cc1ff112cf456cb2033045a5fd4
+17/11/2025  14:13               216 86f7bc1bcd6d4cb55844be75222959ad236277
+               2 archivos            491 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\e7
+
+20/11/2025  14:53    <DIR>          .
+20/11/2025  14:53    <DIR>          ..
+20/11/2025  14:53             1.905 1c39078df90c1b14fe36cd1fd3b8cbe3b63e83
+               1 archivos          1.905 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\e8
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36                68 0d1ba57f426558eac1d0eae111b368f7817a7f
+               1 archivos             68 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\e9
+
+17/11/2025  14:12    <DIR>          .
+17/11/2025  14:12    <DIR>          ..
+17/11/2025  14:12             1.492 900761b98d9b87bbb1db15f572f85ff7b0b46a
+               1 archivos          1.492 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\ea
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36            29.556 4b579ad5c3d1436e465ec8a0d44a3bb5774dbf
+18/11/2025  13:23                57 a037a088af1df3cb15588d2cbede30794a1350
+               2 archivos         29.613 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\eb
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+19/11/2025  14:36             1.794 78a8b0d3a20dfe3704049a9ada1668a5c499d2
+20/11/2025  14:04               912 ef07023b6a7cf82c34cdf7477e94a135c0eb39
+               2 archivos          2.706 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\ee
+
+17/11/2025  14:12    <DIR>          .
+17/11/2025  14:12    <DIR>          ..
+17/11/2025  14:12               590 9d65d633f6e9b1eedca4d299dd2ee26cd3884c
+               1 archivos            590 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\f1
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+25/11/2025  11:24               289 ec65cf9a8c2ead1ad47b6f66483cdf55a98d5a
+               1 archivos            289 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\f2
+
+20/11/2025  14:04    <DIR>          .
+20/11/2025  14:04    <DIR>          ..
+20/11/2025  14:04             1.115 4da5b6ef152685a253eb2e085472c919bd3110
+               1 archivos          1.115 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\f3
+
+25/11/2025  11:24    <DIR>          .
+25/11/2025  11:24    <DIR>          ..
+25/11/2025  11:24               919 99e233c0933bfad94b6c1e1f52b5c8c2a6c22d
+               1 archivos            919 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\f4
+
+17/11/2025  14:13    <DIR>          .
+17/11/2025  14:13    <DIR>          ..
+17/11/2025  14:13               153 750bc955ba5c675d87464ff55b2125407806f6
+               1 archivos            153 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\f7
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36             1.917 ade6049914498ecffb3672f564e035a9e2e31a
+               1 archivos          1.917 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\f8
+
+18/11/2025  13:23    <DIR>          .
+18/11/2025  13:23    <DIR>          ..
+18/11/2025  13:23               785 adbedde3ba8eb9fcb0d11dcc55acaac04d8ad4
+               1 archivos            785 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\fc
+
+17/11/2025  14:12    <DIR>          .
+17/11/2025  14:12    <DIR>          ..
+17/11/2025  14:12               538 98f41ca8ab198c11908d5b006cb06ab0898eb3
+               1 archivos            538 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\fd
+
+19/11/2025  14:36    <DIR>          .
+19/11/2025  14:36    <DIR>          ..
+19/11/2025  14:36             1.363 4f1b9d1ee80ec30d391fc0880c78b7a5dc34f8
+17/11/2025  14:18               418 9fed22fd81e1b3f2016d337196fcf6585676bb
+               2 archivos          1.781 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\info
+
+17/11/2025  14:08    <DIR>          .
+17/11/2025  14:08    <DIR>          ..
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\objects\pack
+
+17/11/2025  14:08    <DIR>          .
+17/11/2025  14:08    <DIR>          ..
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\refs
+
+17/11/2025  14:13    <DIR>          .
+17/11/2025  14:13    <DIR>          ..
+25/11/2025  14:12    <DIR>          heads
+17/11/2025  14:13    <DIR>          remotes
+17/11/2025  14:08    <DIR>          tags
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\refs\heads
+
+25/11/2025  14:12    <DIR>          .
+25/11/2025  14:12    <DIR>          ..
+25/11/2025  14:12                41 main
+               1 archivos             41 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\refs\remotes
+
+17/11/2025  14:13    <DIR>          .
+17/11/2025  14:13    <DIR>          ..
+25/11/2025  14:12    <DIR>          origin
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\refs\remotes\origin
+
+25/11/2025  14:12    <DIR>          .
+25/11/2025  14:12    <DIR>          ..
+19/11/2025  09:08                30 HEAD
+25/11/2025  14:12                41 main
+               2 archivos             71 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.git\refs\tags
+
+17/11/2025  14:08    <DIR>          .
+17/11/2025  14:08    <DIR>          ..
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.github
+
+18/11/2025  07:37    <DIR>          .
+18/11/2025  07:37    <DIR>          ..
+18/11/2025  07:37    <DIR>          workflows
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.github\workflows
+
+18/11/2025  07:37    <DIR>          .
+18/11/2025  07:37    <DIR>          ..
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs
+
+20/11/2025  07:37    <DIR>          MiBibliotecaAPI
+25/11/2025  07:20    <DIR>          ProjectEvaluation
+18/11/2025  07:37           217.088 slnx.sqlite
+18/11/2025  07:37                95 VSWorkspaceState.json
+               2 archivos        217.183 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\MiBibliotecaAPI
+
+20/11/2025  07:37    <DIR>          .
+20/11/2025  07:37    <DIR>          ..
+18/11/2025  12:35    <DIR>          config
+20/11/2025  07:37    <DIR>          copilot-chat
+25/11/2025  11:16    <DIR>          CopilotIndices
+18/11/2025  07:56    <DIR>          DesignTimeBuild
+25/11/2025  14:14    <DIR>          FileContentIndex
+20/11/2025  11:33    <DIR>          v17
+25/11/2025  14:03    <DIR>          v18
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\MiBibliotecaAPI\config
+
+18/11/2025  12:35    <DIR>          .
+18/11/2025  12:35    <DIR>          ..
+01/06/2016  09:04            83.003 applicationhost.config
+               1 archivos         83.003 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\MiBibliotecaAPI\copilot-chat
+
+20/11/2025  07:37    <DIR>          .
+20/11/2025  07:37    <DIR>          ..
+20/11/2025  07:37    <DIR>          1c8a44d6
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\MiBibliotecaAPI\copilot-chat\1c8a44d6
+
+20/11/2025  07:37    <DIR>          .
+20/11/2025  07:37    <DIR>          ..
+20/11/2025  07:37    <DIR>          sessions
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\MiBibliotecaAPI\copilot-chat\1c8a44d6\sessions
+
+20/11/2025  07:37    <DIR>          .
+20/11/2025  07:37    <DIR>          ..
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\MiBibliotecaAPI\CopilotIndices
+
+25/11/2025  11:16    <DIR>          .
+25/11/2025  11:16    <DIR>          ..
+19/11/2025  14:58    <DIR>          17.14.1431.25910
+20/11/2025  11:33    <DIR>          17.14.1518.61961
+20/11/2025  14:59    <DIR>          18.0.927.32057
+25/11/2025  11:16    <DIR>          18.0.934.24903
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\MiBibliotecaAPI\CopilotIndices\17.14.1431.25910
+
+19/11/2025  14:58    <DIR>          .
+19/11/2025  14:58    <DIR>          ..
+19/11/2025  14:58           139.264 CodeChunks.db
+19/11/2025  14:58            77.824 SemanticSymbols.db
+               2 archivos        217.088 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\MiBibliotecaAPI\CopilotIndices\17.14.1518.61961
+
+20/11/2025  11:33    <DIR>          .
+20/11/2025  11:33    <DIR>          ..
+20/11/2025  11:33           139.264 CodeChunks.db
+20/11/2025  11:33            77.824 SemanticSymbols.db
+               2 archivos        217.088 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\MiBibliotecaAPI\CopilotIndices\18.0.927.32057
+
+20/11/2025  14:59    <DIR>          .
+20/11/2025  14:59    <DIR>          ..
+20/11/2025  14:59           167.936 CodeChunks.db
+20/11/2025  14:59            77.824 SemanticSymbols.db
+               2 archivos        245.760 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\MiBibliotecaAPI\CopilotIndices\18.0.934.24903
+
+25/11/2025  11:16    <DIR>          .
+25/11/2025  11:16    <DIR>          ..
+25/11/2025  13:06           192.512 CodeChunks.db
+25/11/2025  11:16            32.768 CodeChunks.db-shm
+25/11/2025  13:06         4.128.272 CodeChunks.db-wal
+25/11/2025  13:51            94.208 SemanticSymbols.db
+25/11/2025  11:16            32.768 SemanticSymbols.db-shm
+25/11/2025  13:51         4.169.472 SemanticSymbols.db-wal
+               6 archivos      8.650.000 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\MiBibliotecaAPI\DesignTimeBuild
+
+18/11/2025  07:56    <DIR>          .
+18/11/2025  07:56    <DIR>          ..
+25/11/2025  13:09           211.128 .dtbcache.v2
+               1 archivos        211.128 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\MiBibliotecaAPI\FileContentIndex
+
+25/11/2025  14:14    <DIR>          .
+25/11/2025  14:14    <DIR>          ..
+25/11/2025  13:40            11.667 22a4cd0c-3310-4b26-a827-551a90c831ef.vsidx
+24/11/2025  14:24            11.516 33046562-85bd-4abf-9e32-e54edd3c4a9f.vsidx
+24/11/2025  14:46            76.285 36fbbd7b-3fa7-495e-b16a-c0c02c57d2a3.vsidx
+25/11/2025  14:14            12.629 719d855a-f5c5-4f90-be9f-3d9af4a6f937.vsidx
+25/11/2025  13:34            12.197 925b853b-7632-4c21-bb93-3127c364a552.vsidx
+               5 archivos        124.294 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\MiBibliotecaAPI\v17
+
+20/11/2025  11:33    <DIR>          .
+20/11/2025  11:33    <DIR>          ..
+20/11/2025  11:29               113 .futdcache.v2
+20/11/2025  11:29            14.934 DocumentLayout.backup.json
+20/11/2025  11:33            14.934 DocumentLayout.json
+               3 archivos         29.981 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\MiBibliotecaAPI\v18
+
+25/11/2025  14:03    <DIR>          .
+25/11/2025  14:03    <DIR>          ..
+24/11/2025  15:00               113 .futdcache.v2
+25/11/2025  14:03             8.801 DocumentLayout.backup.json
+25/11/2025  14:03             8.799 DocumentLayout.json
+               3 archivos         17.713 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\.vs\ProjectEvaluation
+
+25/11/2025  07:20    <DIR>          .
+25/11/2025  07:20    <DIR>          ..
+25/11/2025  07:20             1.346 mibibliotecaapi.metadata.v10.bin
+25/11/2025  07:20            34.415 mibibliotecaapi.projects.v10.bin
+25/11/2025  07:20           169.245 mibibliotecaapi.strings.v10.bin
+               3 archivos        205.006 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin
+
+17/11/2025  14:23    <DIR>          .
+17/11/2025  14:23    <DIR>          ..
+17/11/2025  14:23    <DIR>          Debug
+17/11/2025  14:23    <DIR>          Release
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug
+
+17/11/2025  14:23    <DIR>          .
+17/11/2025  14:23    <DIR>          ..
+25/11/2025  14:03    <DIR>          net9.0
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0
+
+25/11/2025  14:03    <DIR>          .
+25/11/2025  14:03    <DIR>          ..
+25/11/2025  13:59    <DIR>          af
+17/11/2025  14:11               127 appsettings.Development.json
+18/11/2025  10:09               317 appsettings.json
+25/11/2025  13:59    <DIR>          ar
+25/11/2025  13:59    <DIR>          az
+26/02/2024  16:24           400.936 Azure.Core.dll
+10/06/2024  17:43           342.960 Azure.Identity.dll
+25/11/2025  13:59    <DIR>          bg
+25/11/2025  13:59    <DIR>          bn-BD
+25/11/2025  13:59    <DIR>          cs
+25/11/2025  13:59    <DIR>          da
+25/11/2025  13:59    <DIR>          de
+24/11/2025  14:23               193 dotnet-tools.json
+25/11/2025  13:59    <DIR>          el
+25/11/2025  13:59    <DIR>          es
+25/11/2025  13:59    <DIR>          fa
+25/11/2025  13:59    <DIR>          fi-FI
+25/11/2025  13:59    <DIR>          fr
+25/11/2025  13:59    <DIR>          fr-BE
+25/11/2025  13:59    <DIR>          he
+25/11/2025  13:59    <DIR>          hr
+25/11/2025  13:59    <DIR>          hu
+29/01/2022  16:04           355.944 Humanizer.dll
+25/11/2025  13:59    <DIR>          hy
+25/11/2025  13:59    <DIR>          id
+25/11/2025  13:59    <DIR>          is
+25/11/2025  13:59    <DIR>          it
+25/11/2025  13:59    <DIR>          ja
+25/11/2025  13:59    <DIR>          ko
+25/11/2025  13:59    <DIR>          ko-KR
+25/11/2025  13:59    <DIR>          ku
+25/11/2025  13:59    <DIR>          lv
+25/11/2025  13:59           107.637 MiBibliotecaAPI.deps.json
+25/11/2025  14:03            97.280 MiBibliotecaAPI.dll
+25/11/2025  14:03           156.160 MiBibliotecaAPI.exe
+25/11/2025  14:03            46.164 MiBibliotecaAPI.pdb
+25/11/2025  13:59               485 MiBibliotecaAPI.runtimeconfig.json
+25/11/2025  13:59                51 MiBibliotecaAPI.staticwebassets.endpoints.json
+21/10/2025  00:51           195.344 Microsoft.AspNetCore.OpenApi.dll
+19/10/2023  05:55         1.010.440 Microsoft.AspNetCore.Razor.Language.dll
+18/10/2022  17:14            19.072 Microsoft.Bcl.AsyncInterfaces.dll
+18/04/2024  10:20         1.965.736 Microsoft.Build.dll
+18/04/2024  10:20           309.408 Microsoft.Build.Framework.dll
+13/03/2024  19:40            44.576 Microsoft.Build.Locator.dll
+06/06/2020  04:37           543.624 Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+08/11/2023  18:56         6.501.536 Microsoft.CodeAnalysis.CSharp.dll
+08/11/2023  18:58         2.013.984 Microsoft.CodeAnalysis.CSharp.Features.dll
+08/11/2023  18:56           883.472 Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+08/11/2023  18:46         2.895.520 Microsoft.CodeAnalysis.dll
+11/05/2022  15:49           145.840 Microsoft.CodeAnalysis.Elfie.dll
+08/11/2023  18:52         4.902.672 Microsoft.CodeAnalysis.Features.dll
+19/10/2023  05:55            92.448 Microsoft.CodeAnalysis.Razor.dll
+08/11/2023  18:52           137.904 Microsoft.CodeAnalysis.Scripting.dll
+08/11/2023  18:51         3.852.448 Microsoft.CodeAnalysis.Workspaces.dll
+08/11/2023  18:52            86.688 Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+08/11/2023  19:01            72.864 Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+27/08/2024  19:22           275.984 Microsoft.Data.SqlClient.dll
+28/04/2023  20:31            87.168 Microsoft.DiaSymReader.dll
+07/11/2024  23:46           135.736 Microsoft.DotNet.Scaffolding.Shared.dll
+20/10/2025  07:38            34.872 Microsoft.EntityFrameworkCore.Abstractions.dll
+20/10/2025  07:39           623.136 Microsoft.EntityFrameworkCore.Design.dll
+20/10/2025  07:38         2.692.152 Microsoft.EntityFrameworkCore.dll
+20/10/2025  07:39         2.143.816 Microsoft.EntityFrameworkCore.Relational.dll
+20/10/2025  07:40           613.960 Microsoft.EntityFrameworkCore.SqlServer.dll
+18/10/2025  00:29            36.640 Microsoft.Extensions.Caching.Abstractions.dll
+18/10/2025  00:29            48.936 Microsoft.Extensions.Caching.Memory.dll
+18/10/2025  00:29            29.488 Microsoft.Extensions.Configuration.Abstractions.dll
+18/10/2025  00:29            66.344 Microsoft.Extensions.DependencyInjection.Abstractions.dll
+18/10/2025  00:29            93.480 Microsoft.Extensions.DependencyInjection.dll
+18/10/2025  00:29            85.288 Microsoft.Extensions.DependencyModel.dll
+18/10/2025  00:29            67.368 Microsoft.Extensions.Logging.Abstractions.dll
+18/10/2025  00:29            52.512 Microsoft.Extensions.Logging.dll
+18/10/2025  00:29            66.352 Microsoft.Extensions.Options.dll
+18/10/2025  00:29            45.352 Microsoft.Extensions.Primitives.dll
+06/06/2024  23:09         1.005.600 Microsoft.Identity.Client.dll
+06/06/2024  23:14            66.592 Microsoft.Identity.Client.Extensions.Msal.dll
+01/12/2023  05:56            18.968 Microsoft.IdentityModel.Abstractions.dll
+01/12/2023  05:34           112.576 Microsoft.IdentityModel.JsonWebTokens.dll
+01/12/2023  05:35            36.792 Microsoft.IdentityModel.Logging.dll
+01/12/2023  05:37            39.864 Microsoft.IdentityModel.Protocols.dll
+01/12/2023  05:48           114.104 Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+01/12/2023  05:41           993.312 Microsoft.IdentityModel.Tokens.dll
+18/04/2024  10:20            30.888 Microsoft.NET.StringTools.dll
+22/08/2025  20:09           242.232 Microsoft.OpenApi.dll
+27/01/2022  18:19            23.976 Microsoft.SqlServer.Server.dll
+07/11/2024  23:47            63.016 Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+07/11/2024  23:47            30.248 Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+07/11/2024  23:47            35.376 Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+03/09/2024  22:57           177.664 Mono.TextTemplating.dll
+25/11/2025  13:59    <DIR>          ms-MY
+25/11/2025  13:59    <DIR>          mt
+25/11/2025  13:59    <DIR>          nb
+25/11/2025  13:59    <DIR>          nb-NO
+08/03/2023  08:09           712.464 Newtonsoft.Json.dll
+25/11/2025  13:59    <DIR>          nl
+28/06/2024  03:52           123.432 NuGet.Common.dll
+28/06/2024  03:53           179.752 NuGet.Configuration.dll
+28/06/2024  03:54            97.304 NuGet.DependencyResolver.Core.dll
+28/06/2024  03:54           133.152 NuGet.Frameworks.dll
+28/06/2024  03:54            59.440 NuGet.LibraryModel.dll
+28/06/2024  03:54           689.712 NuGet.Packaging.dll
+28/06/2024  03:54           255.008 NuGet.ProjectModel.dll
+28/06/2024  03:54           790.960 NuGet.Protocol.dll
+28/06/2024  03:55            68.544 NuGet.Versioning.dll
+25/11/2025  13:59    <DIR>          pl
+25/11/2025  13:59    <DIR>          pt
+25/11/2025  13:59    <DIR>          pt-BR
+25/11/2025  13:59    <DIR>          ro
+25/11/2025  13:59    <DIR>          ru
+18/11/2025  10:09    <DIR>          runtimes
+25/11/2025  13:59    <DIR>          sk
+25/11/2025  13:59    <DIR>          sl
+25/11/2025  13:59    <DIR>          sr
+25/11/2025  13:59    <DIR>          sr-Latn
+25/11/2025  13:59    <DIR>          sv
+02/10/2025  11:22            17.920 Swashbuckle.AspNetCore.Swagger.dll
+02/10/2025  11:22           155.136 Swashbuckle.AspNetCore.SwaggerGen.dll
+02/10/2025  11:22           724.480 Swashbuckle.AspNetCore.SwaggerUI.dll
+03/01/2024  18:43            28.608 System.ClientModel.dll
+23/10/2021  00:47           184.944 System.CodeDom.dll
+18/10/2022  17:15            20.096 System.Composition.AttributedModel.dll
+18/10/2022  17:15            53.880 System.Composition.Convention.dll
+18/10/2022  17:16            55.440 System.Composition.Hosting.dll
+18/10/2022  17:15            26.240 System.Composition.Runtime.dll
+18/10/2022  17:16            65.168 System.Composition.TypedParts.dll
+31/10/2023  15:59           442.632 System.Configuration.ConfigurationManager.dll
+01/12/2023  05:31            77.344 System.IdentityModel.Tokens.Jwt.dll
+08/04/2021  17:45            21.368 System.Memory.Data.dll
+31/10/2023  15:59           253.104 System.Reflection.MetadataLoadContext.dll
+23/10/2021  00:52            89.200 System.Runtime.Caching.dll
+31/10/2023  15:59            36.616 System.Security.Cryptography.ProtectedData.dll
+25/11/2025  13:59    <DIR>          th-TH
+25/11/2025  13:59    <DIR>          tr
+25/11/2025  13:59    <DIR>          uk
+25/11/2025  13:59    <DIR>          uz-Cyrl-UZ
+25/11/2025  13:59    <DIR>          uz-Latn-UZ
+25/11/2025  13:59    <DIR>          vi
+25/11/2025  13:59    <DIR>          zh-CN
+25/11/2025  13:59    <DIR>          zh-Hans
+25/11/2025  13:59    <DIR>          zh-Hant
+              89 archivos     42.733.566 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\af
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            16.488 Humanizer.resources.dll
+               1 archivos         16.488 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\ar
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            21.608 Humanizer.resources.dll
+               1 archivos         21.608 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\az
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            16.488 Humanizer.resources.dll
+               1 archivos         16.488 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\bg
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            17.000 Humanizer.resources.dll
+               1 archivos         17.000 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\bn-BD
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            17.000 Humanizer.resources.dll
+               1 archivos         17.000 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\cs
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            18.536 Humanizer.resources.dll
+08/11/2023  18:58            46.240 Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+08/11/2023  18:56           421.552 Microsoft.CodeAnalysis.CSharp.resources.dll
+08/11/2023  18:56            18.080 Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+08/11/2023  18:52           191.240 Microsoft.CodeAnalysis.Features.resources.dll
+08/11/2023  18:46            46.752 Microsoft.CodeAnalysis.resources.dll
+08/11/2023  18:52            18.192 Microsoft.CodeAnalysis.Scripting.resources.dll
+08/11/2023  18:52            17.568 Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+08/11/2023  18:51            48.304 Microsoft.CodeAnalysis.Workspaces.resources.dll
+               9 archivos        826.464 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\da
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            17.512 Humanizer.resources.dll
+               1 archivos         17.512 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\de
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            19.560 Humanizer.resources.dll
+08/11/2023  18:58            46.768 Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+08/11/2023  18:56           450.208 Microsoft.CodeAnalysis.CSharp.resources.dll
+08/11/2023  18:56            18.080 Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+08/11/2023  18:52           201.504 Microsoft.CodeAnalysis.Features.resources.dll
+08/11/2023  18:46            48.304 Microsoft.CodeAnalysis.resources.dll
+08/11/2023  18:52            18.608 Microsoft.CodeAnalysis.Scripting.resources.dll
+08/11/2023  18:52            17.568 Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+08/11/2023  18:51            49.824 Microsoft.CodeAnalysis.Workspaces.resources.dll
+               9 archivos        870.424 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\el
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            17.512 Humanizer.resources.dll
+               1 archivos         17.512 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\es
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            33.384 Humanizer.resources.dll
+08/11/2023  18:58            47.264 Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+08/11/2023  18:56           440.480 Microsoft.CodeAnalysis.CSharp.resources.dll
+08/11/2023  18:56            18.080 Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+08/11/2023  18:52           198.928 Microsoft.CodeAnalysis.Features.resources.dll
+08/11/2023  18:46            48.304 Microsoft.CodeAnalysis.resources.dll
+08/11/2023  18:52            18.096 Microsoft.CodeAnalysis.Scripting.resources.dll
+08/11/2023  18:52            17.584 Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+08/11/2023  18:51            49.824 Microsoft.CodeAnalysis.Workspaces.resources.dll
+               9 archivos        871.944 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\fa
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            17.000 Humanizer.resources.dll
+               1 archivos         17.000 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\fi-FI
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            13.928 Humanizer.resources.dll
+               1 archivos         13.928 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\fr
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            19.048 Humanizer.resources.dll
+08/11/2023  18:58            47.776 Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+08/11/2023  18:56           451.232 Microsoft.CodeAnalysis.CSharp.resources.dll
+08/11/2023  18:56            18.192 Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+08/11/2023  18:52           205.584 Microsoft.CodeAnalysis.Features.resources.dll
+08/11/2023  18:46            48.800 Microsoft.CodeAnalysis.resources.dll
+08/11/2023  18:52            18.608 Microsoft.CodeAnalysis.Scripting.resources.dll
+08/11/2023  18:52            17.680 Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+08/11/2023  18:52            50.848 Microsoft.CodeAnalysis.Workspaces.resources.dll
+               9 archivos        877.768 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\fr-BE
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            17.000 Humanizer.resources.dll
+               1 archivos         17.000 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\he
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            21.096 Humanizer.resources.dll
+               1 archivos         21.096 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\hr
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            19.048 Humanizer.resources.dll
+               1 archivos         19.048 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\hu
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            16.488 Humanizer.resources.dll
+               1 archivos         16.488 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\hy
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            17.000 Humanizer.resources.dll
+               1 archivos         17.000 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\id
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            17.000 Humanizer.resources.dll
+               1 archivos         17.000 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\is
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            24.168 Humanizer.resources.dll
+               1 archivos         24.168 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\it
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            16.488 Humanizer.resources.dll
+08/11/2023  18:58            47.376 Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+08/11/2023  18:56           447.240 Microsoft.CodeAnalysis.CSharp.resources.dll
+08/11/2023  18:56            18.096 Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+08/11/2023  18:52           200.968 Microsoft.CodeAnalysis.Features.resources.dll
+08/11/2023  18:46            48.800 Microsoft.CodeAnalysis.resources.dll
+08/11/2023  18:52            18.592 Microsoft.CodeAnalysis.Scripting.resources.dll
+08/11/2023  18:52            17.584 Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+08/11/2023  18:52            50.336 Microsoft.CodeAnalysis.Workspaces.resources.dll
+               9 archivos        865.480 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\ja
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            16.488 Humanizer.resources.dll
+08/11/2023  18:58            48.912 Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+08/11/2023  18:56           492.704 Microsoft.CodeAnalysis.CSharp.resources.dll
+08/11/2023  18:56            18.096 Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+08/11/2023  18:52           211.216 Microsoft.CodeAnalysis.Features.resources.dll
+08/11/2023  18:46            51.872 Microsoft.CodeAnalysis.resources.dll
+08/11/2023  18:52            18.608 Microsoft.CodeAnalysis.Scripting.resources.dll
+08/11/2023  18:52            17.584 Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+08/11/2023  18:52            53.408 Microsoft.CodeAnalysis.Workspaces.resources.dll
+               9 archivos        928.888 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\ko
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+08/11/2023  18:58            46.368 Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+08/11/2023  18:56           452.272 Microsoft.CodeAnalysis.CSharp.resources.dll
+08/11/2023  18:56            18.192 Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+08/11/2023  18:52           196.256 Microsoft.CodeAnalysis.Features.resources.dll
+08/11/2023  18:46            48.800 Microsoft.CodeAnalysis.resources.dll
+08/11/2023  18:52            18.592 Microsoft.CodeAnalysis.Scripting.resources.dll
+08/11/2023  18:52            17.568 Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+08/11/2023  18:52            50.336 Microsoft.CodeAnalysis.Workspaces.resources.dll
+               8 archivos        848.384 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\ko-KR
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            26.728 Humanizer.resources.dll
+               1 archivos         26.728 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\ku
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            30.312 Humanizer.resources.dll
+               1 archivos         30.312 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\lv
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            27.240 Humanizer.resources.dll
+               1 archivos         27.240 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\ms-MY
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            27.240 Humanizer.resources.dll
+               1 archivos         27.240 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\mt
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            29.800 Humanizer.resources.dll
+               1 archivos         29.800 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\nb
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            17.512 Humanizer.resources.dll
+               1 archivos         17.512 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\nb-NO
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            17.512 Humanizer.resources.dll
+               1 archivos         17.512 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\nl
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            16.488 Humanizer.resources.dll
+               1 archivos         16.488 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\pl
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            18.536 Humanizer.resources.dll
+08/11/2023  18:58            47.368 Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+08/11/2023  18:56           453.280 Microsoft.CodeAnalysis.CSharp.resources.dll
+08/11/2023  18:56            18.208 Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+08/11/2023  18:52           198.408 Microsoft.CodeAnalysis.Features.resources.dll
+08/11/2023  18:46            48.816 Microsoft.CodeAnalysis.resources.dll
+08/11/2023  18:52            18.592 Microsoft.CodeAnalysis.Scripting.resources.dll
+08/11/2023  18:52            17.568 Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+08/11/2023  18:52            49.840 Microsoft.CodeAnalysis.Workspaces.resources.dll
+               9 archivos        870.616 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\pt
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            16.488 Humanizer.resources.dll
+               1 archivos         16.488 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\pt-BR
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+08/11/2023  18:58            46.864 Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+08/11/2023  18:56           432.800 Microsoft.CodeAnalysis.CSharp.resources.dll
+08/11/2023  18:56            18.096 Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+08/11/2023  18:52           196.888 Microsoft.CodeAnalysis.Features.resources.dll
+08/11/2023  18:46            47.264 Microsoft.CodeAnalysis.resources.dll
+08/11/2023  18:52            18.080 Microsoft.CodeAnalysis.Scripting.resources.dll
+08/11/2023  18:52            17.568 Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+08/11/2023  18:52            49.312 Microsoft.CodeAnalysis.Workspaces.resources.dll
+               8 archivos        826.872 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\ro
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            16.488 Humanizer.resources.dll
+               1 archivos         16.488 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\ru
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            21.608 Humanizer.resources.dll
+08/11/2023  18:58            55.048 Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+08/11/2023  18:56           595.104 Microsoft.CodeAnalysis.CSharp.resources.dll
+08/11/2023  18:56            18.704 Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+08/11/2023  18:52           261.392 Microsoft.CodeAnalysis.Features.resources.dll
+08/11/2023  18:46            58.528 Microsoft.CodeAnalysis.resources.dll
+08/11/2023  18:52            19.616 Microsoft.CodeAnalysis.Scripting.resources.dll
+08/11/2023  18:52            17.568 Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+08/11/2023  18:52            57.504 Microsoft.CodeAnalysis.Workspaces.resources.dll
+               9 archivos      1.105.072 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes
+
+18/11/2025  10:09    <DIR>          .
+18/11/2025  10:09    <DIR>          ..
+18/11/2025  10:09    <DIR>          unix
+18/11/2025  10:09    <DIR>          win
+18/11/2025  10:09    <DIR>          win-arm
+18/11/2025  10:09    <DIR>          win-arm64
+18/11/2025  10:09    <DIR>          win-x64
+18/11/2025  10:09    <DIR>          win-x86
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes\unix
+
+18/11/2025  10:09    <DIR>          .
+18/11/2025  10:09    <DIR>          ..
+18/11/2025  10:09    <DIR>          lib
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes\unix\lib
+
+18/11/2025  10:09    <DIR>          .
+18/11/2025  10:09    <DIR>          ..
+25/11/2025  13:59    <DIR>          net6.0
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes\unix\lib\net6.0
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+27/08/2024  19:22         1.559.184 Microsoft.Data.SqlClient.dll
+               1 archivos      1.559.184 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes\win
+
+18/11/2025  10:09    <DIR>          .
+18/11/2025  10:09    <DIR>          ..
+18/11/2025  10:09    <DIR>          lib
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes\win\lib
+
+18/11/2025  10:09    <DIR>          .
+18/11/2025  10:09    <DIR>          ..
+25/11/2025  13:59    <DIR>          net6.0
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes\win\lib\net6.0
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+27/08/2024  19:23         1.643.168 Microsoft.Data.SqlClient.dll
+23/10/2021  00:52            91.240 System.Runtime.Caching.dll
+               2 archivos      1.734.408 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes\win-arm
+
+18/11/2025  10:09    <DIR>          .
+18/11/2025  10:09    <DIR>          ..
+25/11/2025  13:59    <DIR>          native
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes\win-arm\native
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+11/08/2023  19:56           381.984 Microsoft.Data.SqlClient.SNI.dll
+               1 archivos        381.984 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes\win-arm64
+
+18/11/2025  10:09    <DIR>          .
+18/11/2025  10:09    <DIR>          ..
+25/11/2025  13:59    <DIR>          native
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes\win-arm64\native
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+11/08/2023  19:56           491.552 Microsoft.Data.SqlClient.SNI.dll
+               1 archivos        491.552 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes\win-x64
+
+18/11/2025  10:09    <DIR>          .
+18/11/2025  10:09    <DIR>          ..
+25/11/2025  13:59    <DIR>          native
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes\win-x64\native
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+11/08/2023  19:56           504.872 Microsoft.Data.SqlClient.SNI.dll
+               1 archivos        504.872 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes\win-x86
+
+18/11/2025  10:09    <DIR>          .
+18/11/2025  10:09    <DIR>          ..
+25/11/2025  13:59    <DIR>          native
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\runtimes\win-x86\native
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+11/08/2023  19:56           414.248 Microsoft.Data.SqlClient.SNI.dll
+               1 archivos        414.248 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\sk
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            18.536 Humanizer.resources.dll
+               1 archivos         18.536 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\sl
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            21.096 Humanizer.resources.dll
+               1 archivos         21.096 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\sr
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            19.048 Humanizer.resources.dll
+               1 archivos         19.048 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\sr-Latn
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            18.536 Humanizer.resources.dll
+               1 archivos         18.536 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\sv
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            16.488 Humanizer.resources.dll
+               1 archivos         16.488 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\th-TH
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            29.800 Humanizer.resources.dll
+               1 archivos         29.800 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\tr
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            16.488 Humanizer.resources.dll
+08/11/2023  18:58            46.344 Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+08/11/2023  18:56           429.216 Microsoft.CodeAnalysis.CSharp.resources.dll
+08/11/2023  18:56            18.192 Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+08/11/2023  18:52           192.784 Microsoft.CodeAnalysis.Features.resources.dll
+08/11/2023  18:46            46.752 Microsoft.CodeAnalysis.resources.dll
+08/11/2023  18:52            18.080 Microsoft.CodeAnalysis.Scripting.resources.dll
+08/11/2023  18:52            17.584 Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+08/11/2023  18:52            48.288 Microsoft.CodeAnalysis.Workspaces.resources.dll
+               9 archivos        833.728 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\uk
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            21.608 Humanizer.resources.dll
+               1 archivos         21.608 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\uz-Cyrl-UZ
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            17.000 Humanizer.resources.dll
+               1 archivos         17.000 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\uz-Latn-UZ
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            16.488 Humanizer.resources.dll
+               1 archivos         16.488 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\vi
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            17.000 Humanizer.resources.dll
+               1 archivos         17.000 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\zh-CN
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            16.488 Humanizer.resources.dll
+               1 archivos         16.488 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\zh-Hans
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            16.488 Humanizer.resources.dll
+08/11/2023  18:58            44.296 Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+08/11/2023  18:56           382.128 Microsoft.CodeAnalysis.CSharp.resources.dll
+08/11/2023  18:56            18.080 Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+08/11/2023  18:52           172.304 Microsoft.CodeAnalysis.Features.resources.dll
+08/11/2023  18:46            43.680 Microsoft.CodeAnalysis.resources.dll
+08/11/2023  18:52            18.080 Microsoft.CodeAnalysis.Scripting.resources.dll
+08/11/2023  18:52            17.568 Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+08/11/2023  18:52            46.240 Microsoft.CodeAnalysis.Workspaces.resources.dll
+               9 archivos        758.864 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Debug\net9.0\zh-Hant
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+29/01/2022  16:04            16.488 Humanizer.resources.dll
+08/11/2023  18:58            44.312 Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+08/11/2023  18:56           381.600 Microsoft.CodeAnalysis.CSharp.resources.dll
+08/11/2023  18:56            18.192 Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+08/11/2023  18:52           174.360 Microsoft.CodeAnalysis.Features.resources.dll
+08/11/2023  18:46            44.192 Microsoft.CodeAnalysis.resources.dll
+08/11/2023  18:52            18.080 Microsoft.CodeAnalysis.Scripting.resources.dll
+08/11/2023  18:52            17.568 Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+08/11/2023  18:52            46.256 Microsoft.CodeAnalysis.Workspaces.resources.dll
+               9 archivos        761.048 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Release
+
+17/11/2025  14:23    <DIR>          .
+17/11/2025  14:23    <DIR>          ..
+17/11/2025  14:23    <DIR>          net9.0
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\bin\Release\net9.0
+
+17/11/2025  14:23    <DIR>          .
+17/11/2025  14:23    <DIR>          ..
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\Controllers
+
+25/11/2025  14:14    <DIR>          .
+25/11/2025  14:14    <DIR>          ..
+18/11/2025  14:25             3.383 AutoresController.cs
+24/11/2025  14:05             2.485 CategoriaController.cs
+25/11/2025  13:40             4.884 ClienteController.cs
+19/11/2025  12:51             2.296 EditorialesController.cs
+19/11/2025  09:08             3.479 LibrosController.cs
+24/11/2025  14:46             3.658 PedidosController.cs
+25/11/2025  14:14             4.894 ProductoController.cs
+21/11/2025  12:43             2.774 UsuariosController.cs
+               8 archivos         27.853 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\Data
+
+21/11/2025  14:52    <DIR>          .
+21/11/2025  14:52    <DIR>          ..
+21/11/2025  14:52             1.608 ApplicationDbContext.cs
+               1 archivos          1.608 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\Documentacion
+
+20/11/2025  09:56    <DIR>          .
+20/11/2025  09:56    <DIR>          ..
+20/11/2025  09:56             5.688 Documentacion.txt
+               1 archivos          5.688 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\Migrations
+
+24/11/2025  14:24    <DIR>          .
+24/11/2025  14:24    <DIR>          ..
+18/11/2025  11:00             2.224 20251118100016_MigracionInicial.cs
+18/11/2025  11:00             2.846 20251118100016_MigracionInicial.Designer.cs
+19/11/2025  09:12             2.264 20251119081235_AgregarEditorial.cs
+19/11/2025  09:12             4.227 20251119081235_AgregarEditorial.Designer.cs
+19/11/2025  12:59             1.451 20251119115911_AgregarUsuario.cs
+19/11/2025  12:59             4.958 20251119115911_AgregarUsuario.Designer.cs
+20/11/2025  10:17             2.373 20251120091722_AgregarClientesYPedidosFinal.cs
+20/11/2025  10:17             7.055 20251120091722_AgregarClientesYPedidosFinal.Designer.cs
+24/11/2025  14:24             3.000 20251124132406_RelacionProductoPedido.cs
+24/11/2025  14:24             9.827 20251124132406_RelacionProductoPedido.Designer.cs
+24/11/2025  14:24             9.713 ApplicationDbContextModelSnapshot.cs
+              11 archivos         49.938 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\Models
+
+25/11/2025  13:52    <DIR>          .
+25/11/2025  13:52    <DIR>          ..
+21/11/2025  12:40               361 Autor.cs
+24/11/2025  14:05               439 Categoria.cs
+20/11/2025  09:45               398 Cliente.cs
+25/11/2025  13:06               329 CrearProductoDto.cs
+19/11/2025  12:05               312 Editorial.cs
+19/11/2025  09:04               418 Libro.cs
+24/11/2025  13:59               516 Pedido.cs
+25/11/2025  13:52               614 Producto.cs
+25/11/2025  13:34             1.837 ProductoDetalleDto.cs
+24/11/2025  14:05               233 Usuario.cs
+              10 archivos          5.457 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\obj
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+18/11/2025  10:12    <DIR>          Debug
+24/11/2025  14:23             1.729 MiBibliotecaAPI.csproj.EntityFrameworkCore.targets
+20/11/2025  11:28             3.702 MiBibliotecaAPI.csproj.nuget.dgspec.json
+20/11/2025  12:13             3.900 MiBibliotecaAPI.csproj.nuget.g.props
+20/11/2025  11:06             1.893 MiBibliotecaAPI.csproj.nuget.g.targets
+20/11/2025  11:06           356.667 project.assets.json
+25/11/2025  13:59            20.441 project.nuget.cache
+               6 archivos        388.332 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\obj\Debug
+
+18/11/2025  10:12    <DIR>          .
+18/11/2025  10:12    <DIR>          ..
+25/11/2025  14:03    <DIR>          net9.0
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\obj\Debug\net9.0
+
+25/11/2025  14:03    <DIR>          .
+25/11/2025  14:03    <DIR>          ..
+20/11/2025  07:37               198 .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+25/11/2025  14:03            21.824 ApiEndpoints.json
+25/11/2025  14:03           156.160 apphost.exe
+19/11/2025  13:51    <DIR>          EndpointInfo
+25/11/2025  13:59                 0 MiBiblio.D171E129.Up2Date
+25/11/2025  13:59             1.105 MiBibliotecaAPI.AssemblyInfo.cs
+25/11/2025  13:59                66 MiBibliotecaAPI.AssemblyInfoInputs.cache
+25/11/2025  13:58           113.584 MiBibliotecaAPI.assets.cache
+25/11/2025  13:59            41.493 MiBibliotecaAPI.csproj.AssemblyReference.cache
+25/11/2025  13:40                 0 MiBibliotecaAPI.csproj.BuildWithSkipAnalyzers
+25/11/2025  13:59                66 MiBibliotecaAPI.csproj.CoreCompileInputs.cache
+25/11/2025  13:59            23.186 MiBibliotecaAPI.csproj.FileListAbsolute.txt
+25/11/2025  14:03            97.280 MiBibliotecaAPI.dll
+25/11/2025  13:59             1.456 MiBibliotecaAPI.GeneratedMSBuildEditorConfig.editorconfig
+25/11/2025  13:59                66 MiBibliotecaAPI.genruntimeconfig.cache
+20/11/2025  07:37               642 MiBibliotecaAPI.GlobalUsings.g.cs
+25/11/2025  13:59                 0 MiBibliotecaAPI.MvcApplicationPartsAssemblyInfo.cache
+25/11/2025  13:59               783 MiBibliotecaAPI.MvcApplicationPartsAssemblyInfo.cs
+25/11/2025  14:03            46.164 MiBibliotecaAPI.pdb
+25/11/2025  13:59               152 MiBibliotecaAPI.sourcelink.json
+25/11/2025  13:59    <DIR>          ref
+25/11/2025  13:59    <DIR>          refint
+25/11/2025  14:03               676 rjsmcshtml.dswa.cache.json
+25/11/2025  14:03               676 rjsmrazor.dswa.cache.json
+25/11/2025  13:59               436 rpswa.dswa.cache.json
+18/11/2025  10:12    <DIR>          staticwebassets
+25/11/2025  13:59                51 staticwebassets.build.endpoints.json
+25/11/2025  13:59               233 staticwebassets.build.json
+25/11/2025  13:59                44 staticwebassets.build.json.cache
+18/11/2025  10:12                 0 staticwebassets.references.upToDateCheck.txt
+18/11/2025  10:12                 0 staticwebassets.removed.txt
+25/11/2025  13:59                 0 swae.build.ex.cache
+              28 archivos        506.341 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\obj\Debug\net9.0\EndpointInfo
+
+19/11/2025  13:51    <DIR>          .
+19/11/2025  13:51    <DIR>          ..
+25/11/2025  14:03            42.834 MiBibliotecaAPI.json
+25/11/2025  14:03                22 MiBibliotecaAPI.OpenApiFiles.cache
+               2 archivos         42.856 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\obj\Debug\net9.0\ref
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+25/11/2025  14:03            28.672 MiBibliotecaAPI.dll
+               1 archivos         28.672 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\obj\Debug\net9.0\refint
+
+25/11/2025  13:59    <DIR>          .
+25/11/2025  13:59    <DIR>          ..
+25/11/2025  14:03            28.672 MiBibliotecaAPI.dll
+               1 archivos         28.672 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\obj\Debug\net9.0\staticwebassets
+
+18/11/2025  10:12    <DIR>          .
+18/11/2025  10:12    <DIR>          ..
+               0 archivos              0 bytes
+
+ Directorio de C:\CSHARP\MiBibliotecaAPI\Properties
+
+19/11/2025  13:35    <DIR>          .
+19/11/2025  13:35    <DIR>          ..
+19/11/2025  13:35               864 launchSettings.json
+               1 archivos            864 bytes
+
+     Total de archivos en la lista:
+             576 archivos     71.359.884 bytes
+             755 dirs  736.270.884.864 bytes libres

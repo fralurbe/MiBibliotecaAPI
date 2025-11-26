@@ -123,6 +123,7 @@ public class ProductosController : ControllerBase {
     //POST: api/Productos
     [HttpPost]
     public async Task<ActionResult<Producto>> PostProductoDto(CrearProductoDto productoDto) {
+        //mapeo manual
         var productoEntidad = new Producto {
             Nombre = productoDto.Nombre,
             Precio = productoDto.Precio,
