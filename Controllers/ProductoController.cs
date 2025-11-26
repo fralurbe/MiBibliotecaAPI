@@ -2,14 +2,18 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MiBibliotecaAPI.Data;
 using MiBibliotecaAPI.Models;
+using MiBibliotecaAPI.Mappers;
+using AutoMapper;
 
 [Route("api/[controller]")]
 [ApiController]
 public class ProductosController : ControllerBase {
     private readonly ApplicationDbContext _context;
-    
-    public ProductosController(ApplicationDbContext context) {
+    private readonly IMapper _mapper;
+
+    public ProductosController(ApplicationDbContext context, IMapper mapper) {
         _context = context;
+        _mapper = mapper;
     }
 
     ////GET api/Productos (Incluyendo la Categoria)
@@ -124,11 +128,12 @@ public class ProductosController : ControllerBase {
     [HttpPost]
     public async Task<ActionResult<Producto>> PostProductoDto(CrearProductoDto productoDto) {
         //mapeo manual
-        var productoEntidad = new Producto {
-            Nombre = productoDto.Nombre,
-            Precio = productoDto.Precio,
-            CategoriaId = productoDto.CategoriaId
-        };
+        //var productoEntidad = new Producto {
+        //    Nombre = productoDto.Nombre,
+        //    Precio = productoDto.Precio,
+        //    CategoriaId = productoDto.CategoriaId
+        //};
+        var productoEntidad = _mapper.Map<Producto>(productoDto);
         //Se usa la entidad con EF Core
         _context.Productos.Add(productoEntidad);
         await _context.SaveChangesAsync();

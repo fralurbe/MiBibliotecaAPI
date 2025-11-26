@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MiBibliotecaAPI.Data;
+using MiBibliotecaAPI.Mappers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +26,8 @@ builder.Services.AddCors(options =>
                           .AllowAnyMethod()
                           .AllowAnyHeader());
 });
+
+builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
 var app = builder.Build();
 

@@ -1,6 +1,5 @@
 using MiBibliotecaAPI.Data;
 using MiBibliotecaAPI.Models;
-using MiBliotecaAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -26,19 +25,18 @@ public class PedidosController : ControllerBase {
     //GET: api/pedidos
     [HttpGet]
     public async Task<ActionResult<IEnumerable<PedidoDetalleDto>>> GetPedidos() {
-        //Usamos .Select() para proyectar desde Pedido a PedidoDetalleDto
+        //Usamos .Select() para proyectar desde Pedido a PedidoDetalleDto        
         return await _context.Pedidos
-            .Select(p => new PedidoDetalleDto {
-                Id = p.Id,
-                TotalPedido = p.Total,
-                //Proyeccion anidada: Mapeamos la coleccion ICollection<Productos>
-                //a la ICollection<ProductoResumenDto>
-                Productos = p.Productos.Select(prod => new ProductoResumenDto {
-                    NombreProducto = prod.Nombre,
-                    PrecioUnidad = prod.Precio,
-                    NombreDeCategoria = prod.Nombre
-                }).ToList()
-            }).ToListAsync();
+            .Select(
+                p => new PedidoDetalleDto {
+                    Id = p.Id,
+                    TotalPedido = p.Total,
+                    Productos = p.Productos.Select(prod => new ProductoResumenDto {
+                        NombreProducto = prod.Nombre,
+                        PrecioUnidad = prod.Precio,
+                        NombreDeCategoria = prod.Categoria.Nombre
+                    }).ToList()
+                }).ToListAsync();
     }
 
     //GET: api/Pedidos/5
@@ -73,7 +71,7 @@ public class PedidosController : ControllerBase {
 
     //PUT. Actualiza o reemplaza. api/Pedidos/
     [HttpPut]
-    public async Task<ActionResult> PutPedido(int id,Pedido pedido) {
+    public async Task<ActionResult> PutPedido(int id, Pedido pedido) {
         //1. Verificar si el ID de la URL coincide con el ID del objeto
         if (id != pedido.Id) {
             return BadRequest(); // 400: Datos inconsistentes.

@@ -1,7 +1,7 @@
 // Models/PedidoDetalleDto.cs
+using MiBibliotecaAPI;
 
-using MiBliotecaAPI;
-namespace MiBliotecaAPI.Models {
+namespace MiBibliotecaAPI.Models {
     public class PedidoDetalleDto {
         public int Id { get; set; }
         public decimal TotalPedido { get; set; } // 👈 USAMOS ESTA
