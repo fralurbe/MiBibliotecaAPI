@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MiBibliotecaAPI.Data;
 
-namespace MiBibliotecaAPI.Models {
+namespace MiBibliotecaAPI.Models.DTOs {
     //📦 ¿Qué es un DTO (Data Transfer Object)?
     //   Un DTO (Objeto de Transferencia de Datos) es simplemente una clase de C#
     //   cuyo único propósito es enviar y recibir datos específicos entre tu

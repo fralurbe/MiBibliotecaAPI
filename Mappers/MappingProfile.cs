@@ -1,5 +1,6 @@
 using AutoMapper;
 using MiBibliotecaAPI.Models;
+using MiBibliotecaAPI.Models.DTOs;
 
 namespace MiBibliotecaAPI.Mappers {
     public class MappingProfile : Profile {

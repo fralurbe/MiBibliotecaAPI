@@ -1,4 +1,4 @@
-namespace MiBibliotecaAPI.Models {
+namespace MiBibliotecaAPI.Models.DTOs {
     public class CrearProductoDto {
         // NO incluimos 'Id' porque la BD lo genera.
         public string Nombre { get; set; } = string.Empty;

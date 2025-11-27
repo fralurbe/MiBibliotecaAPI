@@ -4,6 +4,7 @@ using MiBibliotecaAPI.Data;
 using MiBibliotecaAPI.Models;
 using MiBibliotecaAPI.Mappers;
 using AutoMapper;
+using MiBibliotecaAPI.Models.DTOs;
 
 [Route("api/[controller]")]
 [ApiController]
