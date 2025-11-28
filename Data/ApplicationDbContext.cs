@@ -16,6 +16,8 @@ namespace MiBibliotecaAPI.Data {
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
+        
+        public DbSet<PedidoDetalle> PedidosDetalle{ get; set; }
 
         // Dentro de la clase ApplicationDbContext
         protected override void OnModelCreating(ModelBuilder modelBuilder) {

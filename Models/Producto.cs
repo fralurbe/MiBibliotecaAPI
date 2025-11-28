@@ -12,5 +12,7 @@ namespace MiBibliotecaAPI.Models {
         //Lo hacemos anulable porque un producto puede no estar en ningun pedido.
         public int? PedidoId { get; set; }
         public Pedido? Pedido { get; set; } = null;
+
+        public int Stock { get; set; }
     }
 }
