@@ -28,12 +28,10 @@ public class AutoresController : ControllerBase {
     public async Task<ActionResult<Autor>> GetAutor(int id) {
         // Consulta LINQ: Busca un autor por su ID
         var autor = await _context.Autores.FindAsync(id);
-
         if (autor == null) {
             return NotFound(); // Retorna 404 si no se encuentra
         }
-
-        return autor;
+        return autor;        
     }
 
     // POST: api/Autores

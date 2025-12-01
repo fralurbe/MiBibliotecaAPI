@@ -16,7 +16,7 @@ public class EditorialesController:ControllerBase {
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Editorial>>> GetEditoriales() {
         return await _context.Editoriales.ToListAsync();
-    }
+    }    
 
     //GET: api/Editoriales/5
     [HttpGet("{id}")]
