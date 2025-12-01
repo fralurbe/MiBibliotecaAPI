@@ -156,27 +156,23 @@ namespace MiBibliotecaAPI.Migrations
 
             modelBuilder.Entity("MiBibliotecaAPI.Models.PedidoDetalle", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("Cantidad")
-                        .HasColumnType("int");
-
                     b.Property<int>("PedidoId")
                         .HasColumnType("int");
-
-                    b.Property<decimal>("PrecioUnitario")
-                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("ProductoId")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("int");
 
-                    b.HasIndex("PedidoId");
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("PrecioUnitario")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("PedidoId", "ProductoId");
 
                     b.HasIndex("ProductoId");
 

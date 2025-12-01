@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace MiBibliotecaAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class CrearTablaPedidoDetalle : Migration
+    public partial class CrearTablaPedidoDetalleFinal : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -29,16 +29,15 @@ namespace MiBibliotecaAPI.Migrations
                 name: "PedidosDetalle",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
                     PedidoId = table.Column<int>(type: "int", nullable: false),
                     ProductoId = table.Column<int>(type: "int", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false),
                     Cantidad = table.Column<int>(type: "int", nullable: false),
-                    PrecioUnitario = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                    PrecioUnitario = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_PedidosDetalle", x => x.Id);
+                    table.PrimaryKey("PK_PedidosDetalle", x => new { x.PedidoId, x.ProductoId });
                     table.ForeignKey(
                         name: "FK_PedidosDetalle_Pedidos_PedidoId",
                         column: x => x.PedidoId,
@@ -52,11 +51,6 @@ namespace MiBibliotecaAPI.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_PedidosDetalle_PedidoId",
-                table: "PedidosDetalle",
-                column: "PedidoId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_PedidosDetalle_ProductoId",

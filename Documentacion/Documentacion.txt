@@ -108,3 +108,6 @@ Archivo	Acción	Ejemplo
 Controllers/NuevaEntidadController.cs	Crear un nuevo controlador para manejar las peticiones HTTP (GET, POST, PUT, DELETE).	ClientesController.cs
 
 Una vez que completes estos cuatro pasos (Modelo, Contexto, Migraciones y Controlador), tu nueva entidad estará completamente operativa, y podrás verla y probarla en Swagger UI.
+
+SQL:
+    https://learnsql.es/blog/7-ejemplos-de-sql-join-con-explicaciones-detalladas/
